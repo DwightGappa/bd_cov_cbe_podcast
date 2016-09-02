@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<!--For more information go to http://kainani.hpu.edu/DE/Podcast_files/xml_handout.pdf . -->
+
+<channel>
+	<title>Chemistry 1000- Introductory Chemistry</title>
+	<description>The following are podcastrecordings for the semester.</description>
+	<pubDate>Thu, 09 Mar 2006 12:21:00 -1000</pubDate>
+	<link>http://campus.hpu.edu</link>
+	<atom:link href="http://de.hpu.edu/de/xml_template.xml" rel="self" type="application/rss+xml" />
+	<copyright>Copyright 2006  and your Email address</copyright>
+
+<item>
+	<title>Week 1 Announcements</title>
+	<description>Self-guided activity</description>
+	<pubDate>Thu, 09 Mar 2006 12:21:00 -1000</pubDate>
+	<enclosure url="http://de.hpu.edu/DE/podcasts/soda.mp3" length="414206" type="audio/mpeg"/>
+	<guid>http://de.hpu.edu/DE/podcasts/soda.mp3</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,40 @@
+week_number,day_number,file_address,reading_section,pages,date,test_date
+1,1,http://www.biblica.com/Global/CBE-files/NT-audio/09_Day-01_Luke-Acts.mp3, Luke-Acts,pages 1–11,09-26-16,09-01-16
+1,2,http://www.biblica.com/Global/CBE-files/NT-audio/10_Day-02_Luke-Acts.mp3, Luke-Acts,pages 11–24,09-27-16,09-01-16
+1,3,http://www.biblica.com/Global/CBE-files/NT-audio/11_Day-03_Luke-Acts.mp3, Luke-Acts,pages 25–33,09-28-16,09-01-16
+1,4,http://www.biblica.com/Global/CBE-files/NT-audio/12_Day-04_Luke-Acts.mp3, Luke-Acts,pages 33–42,09-29-16,09-01-16
+1,5,http://www.biblica.com/Global/CBE-files/NT-audio/13-Day-05_Luke-Acts.mp3, Luke-Acts,pages 42–54,09-30-16,09-01-16
+2,6,http://www.biblica.com/Global/CBE-files/NT-audio/14_Day-06_Luke-Acts.mp3, Luke-Acts,pages 55–64,10-03-16,09-01-16
+2,7,http://www.biblica.com/Global/CBE-files/NT-audio/15_Day-07_Luke-Acts.mp3, Luke-Acts,pages 64–75,10-04-16,09-01-16
+2,8,http://www.biblica.com/Global/CBE-files/NT-audio/16_Day-08_Luke-Acts.mp3, Luke-Acts,pages 75–86,10-05-16,09-01-16
+2,9,http://www.biblica.com/Global/CBE-files/NT-audio/17_Day-09_Luke-Acts.mp3, Luke-Acts,pages 87–102,10-06-16,09-01-16
+2,10,http://www.biblica.com/Global/CBE-files/NT-audio/18_Day-10_1-2Thessalonians.mp3,1-2 Thessalonians,pages 103–115,10-07-16,09-01-16
+3,11,http://www.biblica.com/Global/CBE-files/NT-audio/19_Day-11_1Corinthians.mp3, 1 Corinthians,pages 117–126,10-10-16,09-01-16
+3,12,http://www.biblica.com/Global/CBE-files/NT-audio/20_Day-12_1Corinthians.mp3, 1 Corinthians,pages 127–138,10-11-16,09-01-16
+3,13,http://www.biblica.com/Global/CBE-files/NT-audio/21_Day-13_2Corinthians.mp3, 2 Corinthians,pages 139–153,10-12-16,09-01-16
+3,14,http://www.biblica.com/Global/CBE-files/NT-audio/22_Day-14-Galatians.mp3, Galatians,pages 155–163,10-13-16,09-01-16
+3,15,http://www.biblica.com/Global/CBE-files/NT-audio/23_Day-15_Romans.mp3, Romans,pages 165–177,10-14-16,09-01-16
+4,16,http://www.biblica.com/Global/CBE-files/NT-audio/24_Day-16_Romans.mp3, Romans,pages 177–188,10-17-16,09-01-16
+4,17,http://www.biblica.com/Global/CBE-files/NT-audio/25_Day-17_Colossians.mp3, Colossians,pages 189–195,10-18-16,09-01-16
+4,18,http://www.biblica.com/Global/CBE-files/NT-audio/26_Day-18_Ephesians-Philemon.mp3," Ephesians, Philemon",pages 197–210,10-19-16,09-01-16
+4,19,http://www.biblica.com/Global/CBE-files/NT-audio/27_Day-19_Philippians-1Timothy.mp3," Philippians, 1 Timothy",pages 211–226,10-20-16,09-01-16
+4,20,http://www.biblica.com/Global/CBE-files/NT-audio/28_Day-20_Titus-2Timothy.mp3," Titus, 2 Timothy",pages 227–238,10-21-16,09-01-16
+5,21,http://www.biblica.com/Global/CBE-files/NT-audio/29_Day-21_Matthew.mp3, Matthew,pages 239–251,10-24-16,09-01-16
+5,22,http://www.biblica.com/Global/CBE-files/NT-audio/30_Day-22_Matthew.mp3, Matthew,pages 251–262,10-25-16,09-01-16
+5,23,http://www.biblica.com/Global/CBE-files/NT-audio/31_Day-23_Matthew.mp3, Matthew,pages 262–270,10-26-16,09-01-16
+5,24,http://www.biblica.com/Global/CBE-files/NT-audio/32_Day-24_Matthew.mp3, Matthew,pages 270–283,10-27-16,09-01-16
+5,25,http://www.biblica.com/Global/CBE-files/NT-audio/33_Day-25_Matthew.mp3, Matthew,pages 283–290,10-28-16,09-01-16
+6,26,http://www.biblica.com/Global/CBE-files/NT-audio/34_Day-26_Hebrews.mp3, Hebrews,pages 291–297,10-31-16,09-01-16
+6,27,http://www.biblica.com/Global/CBE-files/NT-audio/35_Day-27_Hebrews.mp3, Hebrews,pages 297–309,11-01-16,09-01-16
+6,28,http://www.biblica.com/Global/CBE-files/NT-audio/36_Day-28_James.mp3, James,pages 311–318,11-02-16,09-01-16
+6,29,http://www.biblica.com/Global/CBE-files/NT-audio/37_Day-29-Mark.mp3, Mark,pages 319–334,11-03-16,09-01-16
+6,30,http://www.biblica.com/Global/CBE-files/NT-audio/38_Day-30_Mark.mp3, Mark,pages 334–350,11-04-16,09-01-16
+7,31,http://www.biblica.com/Global/CBE-files/NT-audio/39_Day-31_1Peter.mp3, 1 Peter,pages 351–358,11-07-16,09-01-16
+7,32,http://www.biblica.com/Global/CBE-files/NT-audio/40_Day-32_2Peter-Jude.mp3," 2 Peter, Jude",pages 359–368,11-08-16,09-01-16
+7,33,http://www.biblica.com/Global/CBE-files/NT-audio/41_Day-33_John.mp3, John,pages 369–382,11-09-16,09-01-16
+7,34,http://www.biblica.com/Global/CBE-files/NT-audio/42_Day-34_John.mp3, John,pages 382–395,11-10-16,09-01-16
+7,35,http://www.biblica.com/Global/CBE-files/NT-audio/43_Day-35_John.mp3, John,pages 395–408,11-11-16,09-01-16
+8,36,http://www.biblica.com/Global/CBE-files/NT-audio/44_Day-36-1-3John.mp3, 1-3 John,pages 409–423,11-14-16,09-01-16
+8,37,http://www.biblica.com/Global/CBE-files/NT-audio/45_Day-37_Revelation.mp3, Revelation,pages 425–431,11-15-16,09-01-16
+8,38,http://www.biblica.com/Global/CBE-files/NT-audio/46_Day-38_Revelation.mp3, Revelation,pages 431–444,11-16-16,09-01-16
+8,39,http://www.biblica.com/Global/CBE-files/NT-audio/47_Day-39_Revelation.mp3, Revelation,pages 444–453,11-17-16,09-01-16
