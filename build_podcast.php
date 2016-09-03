@@ -1,8 +1,9 @@
 <?php
+	header("Content-Type: application/xml; charset=ISO-8859-1");
     define('C_PPCSV_HEADER_RAW',        0);
     define('C_PPCSV_HEADER_NICE',        1);
 	
-	$books_of_bible_mp3s_csv_file_location = './books_of_bible_mp3s.csv'
+	$books_of_bible_mp3s_csv_file_location = 'books_of_bible_mp3s.csv';
 	
    #PaperPear_CSVParser class taken from the comments on php fgetcsv() function docmentation page http://php.net/manual/en/function.fgetcsv.php
    #PaperPear_CSVParser  michael.martinek@gmail.com
@@ -100,10 +101,68 @@
         }
     } 
 	
-	$books_of_bible_mp3s_csv = PaperPear_CSVParser($books_of_bible_mp3s_csv_file_location)
-	while ($books_of_bible_mp3s_csv=>getNext()){
+	
+	
+	#Podcast/RSS code snippets based on the code snippets found at http://www.webreference.com/authoring/languages/xml/rss/custom_feeds/index.html		
+	
 		
+	
+	$feed_details = '<?xml version="1.0" encoding="ISO-8859-1" ?>
+				<rss version="2.0">
+					<channel>
+						<title>'. 'Covenant - Community Bible Experince Podcast' .'</title>
+						<link>'. 'http://cbe.covchurch.org/' .'</link>
+						<description>'. 'This Podcast is the .mp3 audio readings for the Covenant Church - Community Bible Experince. Fall 2016 (9/25/2016)' .'</description>
+						<language>'. 'en-us' .'</language>
+						<image>
+							<title>'. 'Covenant - Community Bible Experince' .'</title>
+							<url>'. 'Cov-CBE_logo.jpg' .'</url>
+							<width>'. '1963' .'</width>
+							<height>'. '776' .'</height>
+						</image>';
+	
+	
+	$books_of_bible_mp3s_csv = PaperPear_CSVParser($books_of_bible_mp3s_csv_file_location);
+	while ($books_of_bible_mp3s_csv=>getNext())
+	{
+		
+		
+		$podcast_date_time = new DateTime($books_of_bible_mp3s_csv=>getdate);
+
+		
+
+		
+		if ( new Datetime() >=  $podcast_date_time)
+		{
+			#gets long date format for for description
+			$podcast_date_time_long_date = $podcast_date_time->format('m ([ .\t-])* dd ');
+			
+			#reads in episode deatils from .csv file $books_of_bible_mp3s_csv using the PaperPear_CSVParser object
+			$week_number = $books_of_bible_mp3s_csv=>getweek_number;
+			$day_number = $books_of_bible_mp3s_csv=>getday_number;
+			$file_url = $books_of_bible_mp3s_csv=>getfile_url;
+			$reading_section = $books_of_bible_mp3s_csv=>getreading_section;
+			$pages = $books_of_bible_mp3s_csv=>getpages;
+			
+			
+			$title = "Week $week_number, Day $day_number";
+			$descritption = "The reading for today $podcast_date_time_long_date (Week $week_number - Day $day_number) is $pages from $reading_section";
+			
+			
+			$feed_items .= '<item>
+					<title>'. $title .'</title>
+					<link>'. $file_url .'</link>
+					<description><![CDATA['. $description .']]></description>
+				</item>';
+		}
+		else 
+		{
+			$feed_items = '</channel>
+				</rss>';
+		}
 	}
+	
+	echo $feed_details . $feed_items ;
 	
 	?>
 	
