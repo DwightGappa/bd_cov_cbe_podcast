@@ -1,6 +1,6 @@
 <?php
    	
-   
+   header("Content-Type: application/xml; charset=ISO-8859-1");
 	
 	$books_of_bible_mp3s_csv_file_location = './books_of_bible_mp3s.csv';
 	
@@ -61,17 +61,20 @@ function csv_to_array($filename='', $delimiter=',')
 	
 	$array_books_of_bible_mp3s_csv = csv_to_array($books_of_bible_mp3s_csv_file_location);
 	
-	foreach ($array_books_of_bible_mp3s_csv as $key => $value)
+	
+	
+	
+	foreach ($array_books_of_bible_mp3s_csv as $csv_row_array)
 	{
 		
 		#reads in episode deatils from .csv file $array_books_of_bible_mp3s_csv using the PaperPear_CSVParser object
 		
-		$week_number = $array_books_of_bible_mp3s_csv['week_number'];
-		$day_number = $array_books_of_bible_mp3s_csv['day_number'];
-		$file_url = $array_books_of_bible_mp3s_csv['file_url'];
-		$reading_section = $array_books_of_bible_mp3s_csv['reading_section'];
-		$pages = $array_books_of_bible_mp3s_csv['pages'];
-		$podcast_date_time = new DateTime($array_books_of_bible_mp3s_csv['date']);
+		$week_number = $csv_row_array['week_number'];
+		$day_number = $csv_row_array['day_number'];
+		$file_url = $csv_row_array['file_url'];
+		$reading_section = $csv_row_array['reading_section'];
+		$pages = $csv_row_array['pages'];
+		$podcast_date_time = new DateTime($csv_row_array['date']);
 
 		
 
@@ -83,23 +86,26 @@ function csv_to_array($filename='', $delimiter=',')
 			
 
 			$title = "Week $week_number, Day $day_number";
-			$descritption = "The reading for today $podcast_date_time_long_date (Week $week_number - Day $day_number) is $pages from $reading_section";
+			$descritption = 'The reading for today'. $podcast_date_time_long_date  . '( ' . $week_number.' - Day '.$day_number. ' )' .' is '. $pages. ' from '. $reading_section;
 			
 			
 			$feed_items .= '<item>
 					<title>'. $title .'</title>
 					<link>'. $file_url .'</link>
-					<description><![CDATA['. $description .']]></description>
+					<description>'. $description .'</description>
 				</item>';
+			
+		
 		}
 		else 
 		{
-			$feed_items = '</channel>
-				</rss>';
+			$feed_items = '';
 		}
 	}
-	header("Content-Type: application/xml; charset=ISO-8859-1");
-	echo $feed_details . $feed_items ;
+	$feed_closing_tags = '</channel>
+				</rss>';
+	$podcast =  $feed_details . $feed_items . $feed_closing_tags ;
+	print $podcast ;
 	
 	?>
 	
