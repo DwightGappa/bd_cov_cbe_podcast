@@ -1,4 +1,6 @@
 <?php
+header("Content-Type: application/xml; charset=UTF8");
+
 function csv_to_array($filename='', $delimiter=',')
 {
  /**
@@ -58,9 +60,9 @@ $absolute_url = full_url( $_SERVER );
 $url_parent_directory_of_php_file = dirname($absolute_url);
 
 
-$cbe_books_of_bible_mp3s_csv_file_location = 'cbe_books_of_bible_mp3s.csv';
+$cbe_books_of_bible_mp3s_csv_file_location = './cbe_books_of_bible_mp3s.csv';
 
-if(!file_exists($cbe_books_of_bible_mp3s_csv_file_location) || !is_readable($cbe_books_of_bible_mp3s_csv_file_location)){
+if(file_exists($cbe_books_of_bible_mp3s_csv_file_location) || is_readable($cbe_books_of_bible_mp3s_csv_file_location)){
 	$array_books_of_bible_mp3s_csv = csv_to_array($cbe_books_of_bible_mp3s_csv_file_location);
 }
 else
@@ -71,7 +73,7 @@ else
 
 
 
-#set rss channel data
+#prepare rss channel data in variables
 #using explict encoding to utf8 for forced utf8 enconding of xml file
 $str_utf8_channel_title = utf8_encode('Covenant - Community Bible Experince Podcast');
 $str_utf8_channel_link =  utf8_encode('http://cbe.covchurch.org/') ;
@@ -81,6 +83,46 @@ $str_utf8_channel_image_title =  utf8_encode('Covenant - Community Bible Experin
 $str_utf8_channel_image_url =  utf8_encode($url_parent_directory_of_php_file . '/Cov-CBE_logo.jpg');
 $str_utf8_channel_image_width =  utf8_encode('1963');
 $str_utf8_channel_image_height =  utf8_encode('776');
+$str_utf8_channel_pubdate = utf8_encode(date(DATE_RSS));
+
+#Create base XML documnet
+$domXML = New domDocument('1.0','utf8');
+
+#RSS tag and attributes
+#Using Itunes podcast extensions for better Apple product capatibility
+$RSSrootelt = $domXML->createElement("RSS");
+$RSSattr1 = $domXML->createAttribute('version');
+$RSSattr1Val = $domXML->createTextNode('2.0');
+$RSSattr1->appendChild($RSSattr1Val);
+
+#Using Itunes podcast extensions for better Apple product capatibility
+$RSSattr2 = $domXML->createAttribute('xmlns:itunes');
+$RSSattr2Val = $domXML->createTextNode('http://www.itunes.com/dtds/podcast-1.0.dtd');
+$RSSattr2->appendChild($RSSattr2Val);
+
+$RSSrootelt->appendChild($RSSattr1);
+$RSSrootelt->appendChild($RSSattr2);
+
+#Write Root node to XML DOM
+$RSSrootNode = $domXML->appendChild($RSSrootelt);
+
+#Channel tag
+$Channelelt = $domXML->createElement('channel');
+
+
+
+#Add channel tag as child of RSS tag
+$ChannelNode = $RSSrootNode->appendChild($Channelelt);
+
+#channel data
+
+#title
+$ChannelTitleELT = $domXML->createElement('title');
+$ChannelTitleValue = $domXML->createTextNode($str_utf8_channel_title);
+$ChannelTitleNode =  $ChannelNode->appendChild($ChannelTitleELT);
+$ChannelTitleNode->appendChild($ChannelTitleValue)
+
+#
 
 
 
@@ -120,10 +162,10 @@ foreach ($array_books_of_bible_mp3s_csv as $csv_row_array)
 }
 
 			
- header("Content-Type: application/xml; charset=ISO-8859-1");
  
+
  
-$podcast =  '' ;
+$podcast =  htmlentities($domXML->saveXML()) ;
 print $podcast ;
 
 ?>
