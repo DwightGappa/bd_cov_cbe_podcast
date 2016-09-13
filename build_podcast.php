@@ -1,10 +1,4 @@
 <?php
-   	
-   header("Content-Type: application/xml; charset=ISO-8859-1");
-	
-	$books_of_bible_mp3s_csv_file_location = './books_of_bible_mp3s.csv';
-	
-
 function csv_to_array($filename='', $delimiter=',')
 {
  /**
@@ -39,73 +33,98 @@ function csv_to_array($filename='', $delimiter=',')
 	}
 	return $data;
 }
+
+#functions url_origin and full_url taken from http://stackoverflow.com/a/8891890/175071.
+function url_origin( $s, $use_forwarded_host = false )
+{
+	#Taken from http://stackoverflow.com/a/8891890/175071
+    $ssl      = ( ! empty( $s['HTTPS'] ) && $s['HTTPS'] == 'on' );
+    $sp       = strtolower( $s['SERVER_PROTOCOL'] );
+    $protocol = substr( $sp, 0, strpos( $sp, '/' ) ) . ( ( $ssl ) ? 's' : '' );
+    $port     = $s['SERVER_PORT'];
+    $port     = ( ( ! $ssl && $port=='80' ) || ( $ssl && $port=='443' ) ) ? '' : ':'.$port;
+    $host     = ( $use_forwarded_host && isset( $s['HTTP_X_FORWARDED_HOST'] ) ) ? $s['HTTP_X_FORWARDED_HOST'] : ( isset( $s['HTTP_HOST'] ) ? $s['HTTP_HOST'] : null );
+    $host     = isset( $host ) ? $host : $s['SERVER_NAME'] . $port;
+    return $protocol . '://' . $host;
+}
+
+function full_url( $s, $use_forwarded_host = false )
+{
+	#Taken from http://stackoverflow.com/a/8891890/175071
+    return url_origin( $s, $use_forwarded_host ) . $s['REQUEST_URI'];
+}
+
+$absolute_url = full_url( $_SERVER );
+$url_parent_directory_of_php_file = dirname($absolute_url);
+
+
+$cbe_books_of_bible_mp3s_csv_file_location = 'cbe_books_of_bible_mp3s.csv';
+
+if(!file_exists($cbe_books_of_bible_mp3s_csv_file_location) || !is_readable($cbe_books_of_bible_mp3s_csv_file_location)){
+	$array_books_of_bible_mp3s_csv = csv_to_array($cbe_books_of_bible_mp3s_csv_file_location);
+}
+else
+{
+	exit("unable to open file ($cbe_books_of_bible_mp3s_csv_file_location)");
+}
+
+
+
+
+#set rss channel data
+#using explict encoding to utf8 for forced utf8 enconding of xml file
+$str_utf8_channel_title = utf8_encode('Covenant - Community Bible Experince Podcast');
+$str_utf8_channel_link =  utf8_encode('http://cbe.covchurch.org/') ;
+$str_utf8_channel_description =  utf8_encode('This Podcast is the .mp3 audio readings for the Covenant Church - Community Bible Experince.  Fall 2016 (9/25/2016)');
+$str_utf8_channel_language =  utf8_encode('en-us');
+$str_utf8_channel_image_title =  utf8_encode('Covenant - Community Bible Experince');
+$str_utf8_channel_image_url =  utf8_encode($url_parent_directory_of_php_file . '/Cov-CBE_logo.jpg');
+$str_utf8_channel_image_width =  utf8_encode('1963');
+$str_utf8_channel_image_height =  utf8_encode('776');
+
+
+
+foreach ($array_books_of_bible_mp3s_csv as $csv_row_array)
+{
 	
+	#reads in episode details from $csv_row_array
 	
+	$week_number = $csv_row_array['week_number'];
+	$day_number = $csv_row_array['day_number'];
+	$file_url = $csv_row_array['file_url'];
+	$reading_section = $csv_row_array['reading_section'];
+	$pages = $csv_row_array['pages'];
+	$podcast_date_time = new DateTime($csv_row_array['date']);
+
 	
 
 	
- 	$feed_details = '<?xml version="1.0" encoding="ISO-8859-1" ?> 
-				<rss version="2.0">
-					<channel>
-						<title>' . 'Covenant - Community Bible Experince Podcast' .'</title>
-						<link>'. 'http://cbe.covchurch.org/' .'</link>
-						<description>'. 'This Podcast is the .mp3 audio readings for the Covenant Church - Community Bible Experince. Fall 2016 (9/25/2016)' .'</description>
-						<language>'. 'en-us' .'</language>
-						<image>
-							<title>'. 'Covenant - Community Bible Experince' .'</title>
-							<url>'. 'Cov-CBE_logo.jpg' .'</url>
-							<width>'. '1963' .'</width>
-							<height>'. '776' .'</height>
-						</image>';
+	if ( new Datetime() >=  $podcast_date_time)
+	{
+		#gets long date format for for description
+		$podcast_date_time_long_date = $podcast_date_time->format('m ([ .\t-])* dd ');
+		
+
+		$episode_title = "Day $day_number";
+		$episdode_descritption = 'The reading for today '. $podcast_date_time_long_date  . '( ' . $week_number.' - Day '.$day_number. ' )' .' is '. $pages. ' from '. $reading_section;
+		
+		
+		
+		
 	
-	
-	$array_books_of_bible_mp3s_csv = csv_to_array($books_of_bible_mp3s_csv_file_location);
-	
-	
-	
-	
-	foreach ($array_books_of_bible_mp3s_csv as $csv_row_array)
+	}
+	else 
 	{
 		
-		#reads in episode deatils from .csv file $array_books_of_bible_mp3s_csv using the PaperPear_CSVParser object
-		
-		$week_number = $csv_row_array['week_number'];
-		$day_number = $csv_row_array['day_number'];
-		$file_url = $csv_row_array['file_url'];
-		$reading_section = $csv_row_array['reading_section'];
-		$pages = $csv_row_array['pages'];
-		$podcast_date_time = new DateTime($csv_row_array['date']);
-
-		
-
-		
-		if ( new Datetime() >=  $podcast_date_time)
-		{
-			#gets long date format for for description
-			$podcast_date_time_long_date = $podcast_date_time->format('m ([ .\t-])* dd ');
-			
-
-			$title = "Week $week_number, Day $day_number";
-			$descritption = 'The reading for today'. $podcast_date_time_long_date  . '( ' . $week_number.' - Day '.$day_number. ' )' .' is '. $pages. ' from '. $reading_section;
-			
-			
-			$feed_items .= '<item>
-					<title>'. $title .'</title>
-					<link>'. $file_url .'</link>
-					<description>'. $description .'</description>
-				</item>';
-			
-		
-		}
-		else 
-		{
-			$feed_items = '';
-		}
 	}
-	$feed_closing_tags = '</channel>
-				</rss>';
-	$podcast =  $feed_details . $feed_items . $feed_closing_tags ;
-	print $podcast ;
-	
-	?>
+}
+
+			
+ header("Content-Type: application/xml; charset=ISO-8859-1");
+ 
+ 
+$podcast =  '' ;
+print $podcast ;
+
+?>
 	
