@@ -120,7 +120,7 @@ $ChannelNode = $RSSrootNode->appendChild($Channelelt);
 $ChannelTitleELT = $domXML->createElement('title');
 $ChannelTitleValue = $domXML->createTextNode($str_utf8_channel_title);
 $ChannelTitleNode =  $ChannelNode->appendChild($ChannelTitleELT);
-$ChannelTitleNode->appendChild($ChannelTitleValue)
+$ChannelTitleNode->appendChild($ChannelTitleValue);
 
 #
 
@@ -165,7 +165,7 @@ foreach ($array_books_of_bible_mp3s_csv as $csv_row_array)
  
 
  
-$podcast =  htmlentities($domXML->saveXML()) ;
+$podcast =  $domXML->saveXML() ;
 print $podcast ;
 
 ?>
