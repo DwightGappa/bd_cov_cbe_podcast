@@ -1,5 +1,5 @@
 <?php
-header("Content-Type: application/xml; charset=UTF8");
+
 
 function csv_to_array($filename='', $delimiter=',')
 {
@@ -71,7 +71,9 @@ else
 }
 
 
-
+#Set local timezone to Central Time becasue PHP script was intended orignally to used by Central time people
+$local_time_zone = New DateTimeZone ('America/Chicago');
+date_default_timezone_set ($local_time_zone->getName());
 
 #prepare rss channel data in variables
 #using explict encoding to utf8 for forced utf8 enconding of xml file
@@ -79,18 +81,22 @@ $str_utf8_channel_title = utf8_encode('Covenant - Community Bible Experince Podc
 $str_utf8_channel_link =  utf8_encode('http://cbe.covchurch.org/') ;
 $str_utf8_channel_description =  utf8_encode('This Podcast is the .mp3 audio readings for the Covenant Church - Community Bible Experince.  Fall 2016 (9/25/2016)');
 $str_utf8_channel_language =  utf8_encode('en-us');
-$str_utf8_channel_image_title =  utf8_encode('Covenant - Community Bible Experince');
-$str_utf8_channel_image_url =  utf8_encode($url_parent_directory_of_php_file . '/Cov-CBE_logo.png');
-$str_utf8_channel_image_width =  utf8_encode('1963');
-$str_utf8_channel_image_height =  utf8_encode('776');
+$str_utf8_channel_image_title =  utf8_encode('Covenant - Community Bible Experince Logo');
+$str_utf8_channel_image_filename = utf8_encode('Cov-CBE_logo_resized.png');
+$str_utf8_channel_image_url =  utf8_encode($url_parent_directory_of_php_file . '/' . $str_utf8_channel_image_filename );
+$str_utf8_channel_image_width =  utf8_encode('144');
+$str_utf8_channel_image_height =  utf8_encode('98');
+
+
 $str_utf8_channel_pubdate = utf8_encode(date(DATE_RSS));
 
 #Create base XML documnet
 $domXML = New domDocument('1.0','utf8');
 
 #RSS tag and attributes
-#Using Itunes podcast extensions for better Apple product capatibility
-$RSSrootelt = $domXML->createElement("RSS");
+
+#Version 2.0 of rsss spec
+$RSSrootelt = $domXML->createElement("rss");
 $RSSattr1 = $domXML->createAttribute('version');
 $RSSattr1Val = $domXML->createTextNode('2.0');
 $RSSattr1->appendChild($RSSattr1Val);
@@ -100,8 +106,15 @@ $RSSattr2 = $domXML->createAttribute('xmlns:itunes');
 $RSSattr2Val = $domXML->createTextNode('http://www.itunes.com/dtds/podcast-1.0.dtd');
 $RSSattr2->appendChild($RSSattr2Val);
 
+#
+$RSSattr3 = $domXML->createAttribute('xmlns:atom');
+$RSSattr3Val = $domXML->createTextNode('http://www.w3.org/2005/Atom');
+$RSSattr3->appendChild($RSSattr3Val);
+
 $RSSrootelt->appendChild($RSSattr1);
 $RSSrootelt->appendChild($RSSattr2);
+$RSSrootelt->appendChild($RSSattr3);
+
 
 #Write Root node to XML DOM
 $RSSrootNode = $domXML->appendChild($RSSrootelt);
@@ -116,24 +129,65 @@ $ChannelNode = $RSSrootNode->appendChild($Channelelt);
 
 #channel data
 
-#title
+#Channel title
 $ChannelTitleELT = $domXML->createElement('title');
 $ChannelTitleValue = $domXML->createTextNode($str_utf8_channel_title);
 $ChannelTitleNode =  $ChannelNode->appendChild($ChannelTitleELT);
 $ChannelTitleNode->appendChild($ChannelTitleValue);
 
-#Link
+#Channel Link
 $ChannelLinkELT = $domXML->createElement('link');
 $ChannelLinkValue = $domXML->createTextNode($str_utf8_channel_link);
 $ChannelLinkNode = $ChannelNode->appendChild($ChannelLinkELT);
 $ChannelLinkNode->appendChild($ChannelLinkValue);
 
-#description
+#Channel description
 $ChanneldescriptionELT = $domXML->createElement('description');
 $ChanneldescriptionValue = $domXML->createTextNode($str_utf8_channel_description);
 $ChanneldescriptionNode = $ChannelNode->appendChild($ChanneldescriptionELT);
 $ChanneldescriptionNode->appendChild($ChanneldescriptionValue);
 
+#Channel language
+$ChannellanguageELT = $domXML->createElement('language');
+$ChannellanguageValue = $domXML->createTextNode($str_utf8_channel_language);
+$ChannellanguageNode = $ChannelNode->appendChild($ChannellanguageELT);
+$ChannellanguageNode->appendChild($ChannellanguageValue);
+
+#Channel image
+$ChannelimageELT = $domXML->createElement('image');
+$ChannelimageNode = $ChannelNode->appendChild($ChannelimageELT);
+
+#Channel image attributes
+
+#Channel image_title
+$Channelimage_titleELT = $domXML->createElement('title');
+$Channelimage_titleValue = $domXML->createTextNode($str_utf8_channel_image_title);
+$Channelimage_titleNode = $ChannelimageNode->appendChild($Channelimage_titleELT);
+$Channelimage_titleNode->appendChild($Channelimage_titleValue);
+
+#Channel image_url
+$Channelimage_urlELT = $domXML->createElement('url');
+$Channelimage_urlValue = $domXML->createTextNode($str_utf8_channel_image_url);
+$Channelimage_urlNode = $ChannelimageNode->appendChild($Channelimage_urlELT);
+$Channelimage_urlNode->appendChild($Channelimage_urlValue);
+
+#Channel image_width
+$Channelimage_widthELT = $domXML->createElement('width');
+$Channelimage_widthValue = $domXML->createTextNode($str_utf8_channel_image_width);
+$Channelimage_widthNode = $ChannelimageNode->appendChild($Channelimage_widthELT);
+$Channelimage_widthNode->appendChild($Channelimage_widthValue);
+
+#Channel image_height
+$Channelimage_heightELT = $domXML->createElement('height');
+$Channelimage_heightValue = $domXML->createTextNode($str_utf8_channel_image_height);
+$Channelimage_heightNode = $ChannelimageNode->appendChild($Channelimage_heightELT);
+$Channelimage_heightNode->appendChild($Channelimage_heightValue);
+
+#Channel pubdate
+$ChannelpubdateELT = $domXML->createElement('pubdate');
+$ChannelpubdateValue = $domXML->createTextNode($str_utf8_channel_pubdate);
+$ChannelpubdateNode = $ChannelNode->appendChild($ChannelpubdateELT);
+$ChannelpubdateNode->appendChild($ChannelpubdateValue);
 
 
 
@@ -144,24 +198,23 @@ foreach ($array_books_of_bible_mp3s_csv as $csv_row_array)
 	
 	#reads in episode details from $csv_row_array
 	
-	$week_number = $csv_row_array['week_number'];
-	$day_number = $csv_row_array['day_number'];
-	$file_url = $csv_row_array['file_url'];
-	$reading_section = $csv_row_array['reading_section'];
-	$pages = $csv_row_array['pages'];
-	$podcast_date_time = new DateTime($csv_row_array['date']);
-
+	$str_utf8_episode_week_number = utf8_encode($csv_row_array['week_number']);
+	$str_utf8_episode_day_number = utf8_encode($csv_row_array['day_number']);
+	$str_utf8_episode_file_url = utf8_encode($csv_row_array['file_url']);
+	$str_utf8_episode_reading_section = utf8_encode($csv_row_array['reading_section']);
+	$str_utf8_episode_pages = utf8_encode($csv_row_array['reading_pages']);
+	$episode_podcast_datetime = new DateTime($csv_row_array['date'],$local_time_zone);
+	
+	#gets long date format for for description
+	$str_utf8_episode_description_date = $episode_podcast_datetime->format('m ([ .\t-])* dd ');
+	$str_utf8_episode_title = "Day $day_number Pages ";
+	$str_utf8_episode_descritption = utf8_encode('The reading for today '. $str_utf8_episode_description_date  . '( ' . ' - Day '.$day_number. ' )' .' is '. $pages. ' from '. $reading_section);
 	
 
 	
-	if ( new Datetime() >=  $podcast_date_time)
+	if (new Datetime($local_time_zone->getName()) >=  $episode_podcast_datetime)
 	{
-		#gets long date format for for description
-		$podcast_date_time_long_date = $podcast_date_time->format('m ([ .\t-])* dd ');
 		
-
-		$episode_title = "Day $day_number";
-		$episdode_descritption = 'The reading for today '. $podcast_date_time_long_date  . '( ' . $week_number.' - Day '.$day_number. ' )' .' is '. $pages. ' from '. $reading_section;
 		
 		
 		
@@ -179,6 +232,7 @@ foreach ($array_books_of_bible_mp3s_csv as $csv_row_array)
 
  
 $podcast =  $domXML->saveXML() ;
+
 print $podcast ;
 
 ?>
