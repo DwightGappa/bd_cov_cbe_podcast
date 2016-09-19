@@ -60,7 +60,10 @@ $absolute_url = full_url( $_SERVER );
 $url_parent_directory_of_php_file = dirname($absolute_url);
 
 
-$cbe_books_of_bible_mp3s_csv_file_location = './cbe_books_of_bible_mp3s.csv';
+#$cbe_books_of_bible_mp3s_csv_file_location = './cbe_books_of_bible_mp3s.csv';
+
+#Testing!!! Remove for final
+$cbe_books_of_bible_mp3s_csv_file_location = './cbe_books_of_bible_mp3s_test.csv';
 
 if(file_exists($cbe_books_of_bible_mp3s_csv_file_location) || is_readable($cbe_books_of_bible_mp3s_csv_file_location)){
 	$array_books_of_bible_mp3s_csv = csv_to_array($cbe_books_of_bible_mp3s_csv_file_location);
@@ -77,9 +80,9 @@ date_default_timezone_set ($local_time_zone->getName());
 
 #prepare rss channel data in variables
 #using explict encoding to utf8 for forced utf8 enconding of xml file
-$str_utf8_channel_title = utf8_encode('Covenant - Community Bible Experince Podcast');
-$str_utf8_channel_link =  utf8_encode('http://cbe.covchurch.org/') ;
-$str_utf8_channel_description =  utf8_encode('This Podcast is the .mp3 audio readings for the Covenant Church - Community Bible Experince.  Fall 2016 (9/25/2016)');
+$str_utf8_channel_title = utf8_encode('Brookdale Covenant - Community Bible Experince Podcast');
+$str_utf8_channel_link =  utf8_encode('http://cbe.covchurch.org') ;
+$str_utf8_channel_description =  utf8_encode('This Podcast is for the .mp3 audio readings for the Brookdale Covenant Church - Community Bible Experince.  Fall 2016 (9/25/2016)');
 $str_utf8_channel_language =  utf8_encode('en-us');
 $str_utf8_channel_image_title =  utf8_encode('Covenant - Community Bible Experince Logo');
 $str_utf8_channel_image_filename = utf8_encode('Cov-CBE_logo_resized.png');
@@ -88,10 +91,10 @@ $str_utf8_channel_image_width =  utf8_encode('144');
 $str_utf8_channel_image_height =  utf8_encode('98');
 
 
-$str_utf8_channel_pubdate = utf8_encode(date(DATE_RSS));
+$str_utf8_channel_pubDate = utf8_encode(date(DATE_RSS));
 
 #Create base XML documnet
-$domXML = New domDocument('1.0','utf8');
+$domXML = New domDocument('1.0','UTF-8');
 
 #RSS tag and attributes
 
@@ -135,12 +138,6 @@ $ChannelTitleValue = $domXML->createTextNode($str_utf8_channel_title);
 $ChannelTitleNode =  $ChannelNode->appendChild($ChannelTitleELT);
 $ChannelTitleNode->appendChild($ChannelTitleValue);
 
-#Channel Link
-$ChannelLinkELT = $domXML->createElement('link');
-$ChannelLinkValue = $domXML->createTextNode($str_utf8_channel_link);
-$ChannelLinkNode = $ChannelNode->appendChild($ChannelLinkELT);
-$ChannelLinkNode->appendChild($ChannelLinkValue);
-
 #Channel description
 $ChanneldescriptionELT = $domXML->createElement('description');
 $ChanneldescriptionValue = $domXML->createTextNode($str_utf8_channel_description);
@@ -152,6 +149,16 @@ $ChannellanguageELT = $domXML->createElement('language');
 $ChannellanguageValue = $domXML->createTextNode($str_utf8_channel_language);
 $ChannellanguageNode = $ChannelNode->appendChild($ChannellanguageELT);
 $ChannellanguageNode->appendChild($ChannellanguageValue);
+
+
+#Channel Link
+$ChannelLinkELT = $domXML->createElement('link');
+$ChannelLinkValue = $domXML->createTextNode($str_utf8_channel_link);
+$ChannelLinkNode = $ChannelNode->appendChild($ChannelLinkELT);
+$ChannelLinkNode->appendChild($ChannelLinkValue);
+
+
+
 
 #Channel image
 $ChannelimageELT = $domXML->createElement('image');
@@ -183,11 +190,11 @@ $Channelimage_heightValue = $domXML->createTextNode($str_utf8_channel_image_heig
 $Channelimage_heightNode = $ChannelimageNode->appendChild($Channelimage_heightELT);
 $Channelimage_heightNode->appendChild($Channelimage_heightValue);
 
-#Channel pubdate
-$ChannelpubdateELT = $domXML->createElement('pubdate');
-$ChannelpubdateValue = $domXML->createTextNode($str_utf8_channel_pubdate);
-$ChannelpubdateNode = $ChannelNode->appendChild($ChannelpubdateELT);
-$ChannelpubdateNode->appendChild($ChannelpubdateValue);
+#Channel pubDate
+$ChannelpubDateELT = $domXML->createElement('pubDate');
+$ChannelpubDateValue = $domXML->createTextNode($str_utf8_channel_pubDate);
+$ChannelpubDateNode = $ChannelNode->appendChild($ChannelpubDateELT);
+$ChannelpubDateNode->appendChild($ChannelpubDateValue);
 
 
 
@@ -196,29 +203,96 @@ $ChannelpubdateNode->appendChild($ChannelpubdateValue);
 foreach ($array_books_of_bible_mp3s_csv as $csv_row_array)
 {
 	
-	#reads in episode details from $csv_row_array
+	#reads in episode (item) details from $csv_row_array
 	
-	$str_utf8_episode_week_number = utf8_encode($csv_row_array['week_number']);
-	$str_utf8_episode_day_number = utf8_encode($csv_row_array['day_number']);
-	$str_utf8_episode_file_url = utf8_encode($csv_row_array['file_url']);
-	$str_utf8_episode_reading_section = utf8_encode($csv_row_array['reading_section']);
-	$str_utf8_episode_pages = utf8_encode($csv_row_array['reading_pages']);
-	$episode_podcast_datetime = new DateTime($csv_row_array['date'],$local_time_zone);
+	$str_utf8_channel_item_week_number = utf8_encode($csv_row_array['week_number']);
+	$str_utf8_channel_item_day_number = utf8_encode($csv_row_array['day_number']);
+	$str_utf8_channel_item_file_url = utf8_encode($csv_row_array['file_url']);
+	$str_utf8_channel_item_reading_section = utf8_encode($csv_row_array['reading_section']);
+	$str_utf8_channel_item_pages = utf8_encode($csv_row_array['reading_pages']);
+	$str_utf8_channel_item_file_size =  utf8_encode($csv_row_array['file_size']);
+	$str_utf8_channel_item_GUID = $str_utf8_channel_item_file_url;
+	
+	#gets episode (item) pubDate from Csv file into Datetime object for easy date comparison
+	$episode_pubDate_DateObject = new DateTime($csv_row_array['date'],$local_time_zone);
+	
+	#Gets pubdate string in RSS date from $episode_pubDate_DateObject
+	$str_utf8_channel_item_pubDate = utf8_encode($episode_pubDate_DateObject->format(DATE_RSS));
+	
+	
+	
+	$str_utf8_channel_item_title = utf8_encode("Day $str_utf8_channel_item_day_number");
 	
 	#gets long date format for for description
-	$str_utf8_episode_description_date = $episode_podcast_datetime->format('m ([ .\t-])* dd ');
-	$str_utf8_episode_title = "Day $day_number Pages ";
-	$str_utf8_episode_descritption = utf8_encode('The reading for today '. $str_utf8_episode_description_date  . '( ' . ' - Day '.$day_number. ' )' .' is '. $pages. ' from '. $reading_section);
+	#$str_utf8_channel_item_description_date = $episode_pubDate_DateObject ->format('m ([ .\t-])* dd ');
+	
+	#Item description variable 
+	$str_utf8_channel_item_descritption = utf8_encode('The reading for Day ' . $str_utf8_channel_item_day_number .' is Pages '. $str_utf8_channel_item_pages. ' from '. $str_utf8_channel_item_reading_section .' reading section');
 	
 
-	
-	if (new Datetime($local_time_zone->getName()) >=  $episode_podcast_datetime)
+	#Only add episode if date is today or older
+	if (new Datetime($local_time_zone->getName()) >=  $episode_pubDate_DateObject )
 	{
 		
-		
-		
-		
-		
+	#Episode (item)
+	
+	#Item tag
+	$ItemELT = $domXML->createElement('item');
+
+	#Add Item tag as child of RSS tag
+	$ChannelItemNode = $ChannelNode->appendChild($ItemELT);
+	
+	#Channel item_title
+	$Channelitem_titleELT = $domXML->createElement('title');
+	$Channelitem_titleValue = $domXML->createTextNode($str_utf8_channel_item_title);
+	$Channelitem_titleNode = $ChannelItemNode->appendChild($Channelitem_titleELT);
+	$Channelitem_titleNode->appendChild($Channelitem_titleValue);
+	
+	#Channel item_descritption
+	$Channelitem_descritptionELT = $domXML->createElement('description');
+	$Channelitem_descritptionValue = $domXML->createTextNode($str_utf8_channel_item_descritption);
+	$Channelitem_descritptionNode = $ChannelItemNode->appendChild($Channelitem_descritptionELT);
+	$Channelitem_descritptionNode->appendChild($Channelitem_descritptionValue);	
+	
+	#Channel item_pubDate
+	$Channelitem_pubDateELT = $domXML->createElement('pubDate');
+	$Channelitem_pubDateValue = $domXML->createTextNode($str_utf8_channel_item_pubDate);
+	$Channelitem_pubDateNode = $ChannelItemNode->appendChild($Channelitem_pubDateELT);
+	$Channelitem_pubDateNode->appendChild($Channelitem_pubDateValue);
+	
+	
+	#File information
+	$Channelitem_enclosureELT = $domXML->createElement('enclosure');
+	
+	
+	#URL attribute
+	$Channelitem_enclosure_URLattrib = $domXML->createElement('url');
+	$Channelitem_enclosure_URLattribVAL = $domXML->createTextNode($str_utf8_channel_item_file_url);
+	#append URLattribVAL to $Channelitem_enclosure_URLattrib
+	$Channelitem_enclosure_URLattrib->appendChild($Channelitem_enclosure_URLattribVAL);
+	
+	#length (filesize) attribute
+	$Channelitem_enclosure_lengthattrib = $domXML->createElement('length');
+	$Channelitem_enclosure_lengthattribVAL = $domXML->createTextNode($str_utf8_channel_item_file_length);
+	#append lengthattribVAL to $Channelitem_enclosure_lengthattrib
+	$Channelitem_enclosure_lengthattrib->appendChild($Channelitem_enclosure_lengthattribVAL);
+	
+	#(file MIME) type attribute
+	$Channelitem_enclosure_typeattrib = $domXML->createElement('type');
+	$Channelitem_enclosure_typeattribVAL = $domXML->createTextNode('audio/mpeg');
+	#append typeattribVAL to $Channelitem_enclosure_typeattrib
+	$Channelitem_enclosure_typeattrib->appendChild($Channelitem_enclosure_typeattribVAL);
+	
+	#append file information attributes to the enclosure elemet
+	$Channelitem_enclosureELT->appendChild($Channelitem_enclosure_URLattrib);
+	$Channelitem_enclosureELT->appendChild($Channelitem_enclosure_lengthattrib);
+	$Channelitem_enclosureELT->appendChild($Channelitem_enclosure_typeattrib);
+	
+	#append enclosure element to item node
+	$Channelitem_enclosureNode = $ChannelItemNode->appendChild($Channelitem_enclosureELT);
+	
+	
+	
 	
 	}
 	else 
@@ -227,9 +301,9 @@ foreach ($array_books_of_bible_mp3s_csv as $csv_row_array)
 	}
 }
 
-			
- 
+header ("Content-Type:text/xml"); 			
 
+$domXML->formatOutput = true;
  
 $podcast =  $domXML->saveXML() ;
 
