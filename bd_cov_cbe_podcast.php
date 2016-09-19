@@ -82,7 +82,7 @@ date_default_timezone_set ($local_time_zone->getName());
 #using explict encoding to utf8 for forced utf8 enconding of xml file
 $str_utf8_channel_title = utf8_encode('Brookdale Covenant - Community Bible Experince Podcast');
 $str_utf8_channel_link =  utf8_encode('http://cbe.covchurch.org') ;
-$str_utf8_channel_description =  utf8_encode('This Podcast is for the .mp3 audio readings for the Brookdale Covenant Church - Community Bible Experince.  Fall 2016 (9/25/2016)');
+$str_utf8_channel_description =  utf8_encode('This Podcast is for the .mp3 audio readings for the Brookdale Covenant Church - Community Bible Experince.  Fall 2016 (9/25/2016).');
 $str_utf8_channel_language =  utf8_encode('en-us');
 $str_utf8_channel_image_title =  utf8_encode('Covenant - Community Bible Experince Logo');
 $str_utf8_channel_image_filename = utf8_encode('Cov-CBE_logo_resized.png');
@@ -227,7 +227,7 @@ foreach ($array_books_of_bible_mp3s_csv as $csv_row_array)
 	#$str_utf8_channel_item_description_date = $episode_pubDate_DateObject ->format('m ([ .\t-])* dd ');
 	
 	#Item description variable 
-	$str_utf8_channel_item_descritption = utf8_encode('The reading for Day ' . $str_utf8_channel_item_day_number .' is Pages '. $str_utf8_channel_item_pages. ' from '. $str_utf8_channel_item_reading_section .' reading section');
+	$str_utf8_channel_item_descritption = utf8_encode('The reading for Day ' . $str_utf8_channel_item_day_number .' is Pages '. $str_utf8_channel_item_pages. ' from '. $str_utf8_channel_item_reading_section .' reading section.');
 	
 
 	#Only add episode if date is today or older
