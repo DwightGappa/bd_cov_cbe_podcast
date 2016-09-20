@@ -82,7 +82,7 @@ date_default_timezone_set ($local_time_zone->getName());
 #using explict encoding to utf8 for forced utf8 enconding of xml file
 $str_utf8_channel_title = utf8_encode('Brookdale Covenant - Community Bible Experince Podcast');
 $str_utf8_channel_link =  utf8_encode('http://cbe.covchurch.org') ;
-$str_utf8_channel_description =  utf8_encode('This Podcast is for the .mp3 audio readings for the Brookdale Covenant Church - Community Bible Experince.  Fall 2016 (9/25/2016).');
+$str_utf8_channel_description =  utf8_encode('This Podcast is for the .mp3 audio readings for the Brookdale Covenant Church - Community Bible Experince.  Fall 2016 (9/25/2016). The Books of the Bible and Community Bible Experince are copyrighted by Biblica');
 $str_utf8_channel_language =  utf8_encode('en-us');
 $str_utf8_channel_image_title =  utf8_encode('Covenant - Community Bible Experince Logo');
 $str_utf8_channel_image_filename = utf8_encode('Cov-CBE_logo_resized.png');
@@ -211,6 +211,7 @@ foreach ($array_books_of_bible_mp3s_csv as $csv_row_array)
 	$str_utf8_channel_item_reading_section = utf8_encode($csv_row_array['reading_section']);
 	$str_utf8_channel_item_pages = utf8_encode($csv_row_array['reading_pages']);
 	$str_utf8_channel_item_file_size =  utf8_encode($csv_row_array['file_size']);
+	$str_utf8_channel_item_audio_duration  = utf8_encode($csv_row_array['audio_duration']);
 	$str_utf8_channel_item_GUID = $str_utf8_channel_item_file_url;
 	
 	#gets episode (item) pubDate from Csv file into Datetime object for easy date comparison
@@ -260,25 +261,31 @@ foreach ($array_books_of_bible_mp3s_csv as $csv_row_array)
 	$Channelitem_pubDateNode = $ChannelItemNode->appendChild($Channelitem_pubDateELT);
 	$Channelitem_pubDateNode->appendChild($Channelitem_pubDateValue);
 	
+	#Channel item_GUID
+	$Channelitem_GUIDELT = $domXML->createElement('GUID');
+	$Channelitem_GUIDValue = $domXML->createTextNode($str_utf8_channel_item_GUID);
+	$Channelitem_GUIDNode = $ChannelItemNode->appendChild($Channelitem_GUIDELT);
+	$Channelitem_GUIDNode->appendChild($Channelitem_GUIDValue);
+	
 	
 	#File information
 	$Channelitem_enclosureELT = $domXML->createElement('enclosure');
 	
 	
 	#URL attribute
-	$Channelitem_enclosure_URLattrib = $domXML->createElement('url');
+	$Channelitem_enclosure_URLattrib = $domXML->createAttribute('url');
 	$Channelitem_enclosure_URLattribVAL = $domXML->createTextNode($str_utf8_channel_item_file_url);
 	#append URLattribVAL to $Channelitem_enclosure_URLattrib
 	$Channelitem_enclosure_URLattrib->appendChild($Channelitem_enclosure_URLattribVAL);
 	
 	#length (filesize) attribute
-	$Channelitem_enclosure_lengthattrib = $domXML->createElement('length');
-	$Channelitem_enclosure_lengthattribVAL = $domXML->createTextNode($str_utf8_channel_item_file_length);
+	$Channelitem_enclosure_lengthattrib = $domXML->createAttribute('length');
+	$Channelitem_enclosure_lengthattribVAL = $domXML->createTextNode($str_utf8_channel_item_file_size);
 	#append lengthattribVAL to $Channelitem_enclosure_lengthattrib
 	$Channelitem_enclosure_lengthattrib->appendChild($Channelitem_enclosure_lengthattribVAL);
 	
 	#(file MIME) type attribute
-	$Channelitem_enclosure_typeattrib = $domXML->createElement('type');
+	$Channelitem_enclosure_typeattrib = $domXML->createAttribute('type');
 	$Channelitem_enclosure_typeattribVAL = $domXML->createTextNode('audio/mpeg');
 	#append typeattribVAL to $Channelitem_enclosure_typeattrib
 	$Channelitem_enclosure_typeattrib->appendChild($Channelitem_enclosure_typeattribVAL);
@@ -290,6 +297,13 @@ foreach ($array_books_of_bible_mp3s_csv as $csv_row_array)
 	
 	#append enclosure element to item node
 	$Channelitem_enclosureNode = $ChannelItemNode->appendChild($Channelitem_enclosureELT);
+	
+	#Channel item_audio_duration
+	$Channelitem_audio_durationELT = $domXML->createElement('itunes:duration');
+	$Channelitem_audio_durationValue = $domXML->createTextNode($str_utf8_channel_item_audio_duration);
+	$Channelitem_audio_durationNode = $ChannelItemNode->appendChild($Channelitem_audio_durationELT);
+	$Channelitem_audio_durationNode->appendChild($Channelitem_audio_durationValue);
+	
 	
 	
 	
