@@ -1,4 +1,4 @@
-week_number,day_number,file_url,file_size,audio_playtime,reading_section,reading_pages,date,test_date,episode_description
+week_number,day_number,file_url,file_size,audio_duration,reading_section,reading_pages,date,test_date,episode_description
 1,1,http://www.biblica.com/Global/CBE-files/NT-audio/09_Day-01_Luke-Acts.mp3,14140095,00:27:02,Luke-Acts,1-11,9/25/2016,4/1/1970,
 1,2,http://www.biblica.com/Global/CBE-files/NT-audio/10_Day-02_Luke-Acts.mp3,19587375,00:37:41,Luke-Acts,11-24,9/26/2016,4/2/1970,
 1,3,http://www.biblica.com/Global/CBE-files/NT-audio/11_Day-03_Luke-Acts.mp3,13228920,00:24:59,Luke-Acts,25-33,9/27/2016,4/3/1970,
