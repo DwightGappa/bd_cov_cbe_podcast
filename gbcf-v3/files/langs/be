@@ -1,0 +1,76 @@
+[00] GBCF-V3 BELGIAN (BE) FILE - DO NOT ALTER FILE FORMAT - BY MICHEL TOURNIER HTTP://WWW.I-MEDIA.EU 
+[01]---------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT       *   Naam
+[03] EMAIL LABEL TEXT      *   E-mail
+[04] ORG LABEL TEXT        *   Organisatie
+[05] PHONE LABEL TEXT      *   Telefoonnummer
+[06] WEBSITE LABEL TEXT    *   Website
+[07] ADDRESS 1 LABEL TEXT  *   Adres
+[08] ADDRESS 2 LABEL TEXT  *   Adres (vervolg)
+[09] CITY LABEL TEXT       *   Stad
+[10] STATE LABEL TEXT      *   Provincie
+[11] POSTCODE LABEL TEXT   *   Postcode
+[12] COUNTRY LABEL TEXT    *   Land
+[13] SUBJECT LABEL TEXT    *   Onderwerp
+[14] OPTMENU LABEL TEXT    *   Doorverwezen door
+[15] MESSAGE LABEL TEXT    *   Bericht
+[16] HONEYPOT LABEL TEXT   *   Laat dit anti-spam veld leeg
+[17] CC COPY LABEL TEXT    *   Aanklikken indien u een kopie wenst van dit bericht
+[18] ANTI-SPAM EXPLANATION *   Uw antwoord bewijst dat u een echte persoon bent
+[19] MAIN LABEL TEXT       *   Vervolledig dit formulier om ons te contacteren.
+[20] SUBMIT BUTTON TEXT    *   Verzenden
+[21] REQUIRED SYMBOL       *   &#042;
+[22] REQUIRED TEXT         *   Duidt een vereist veld aan.
+[23] PRIVACY LINK TEXT     *   Privacy Policy
+[24] TIME STAMP TEXT       *   Tijd
+[25] SELECT DEFAULT TEXT   *   Kies dit
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT      *   Invulformulier
+[29] REQ 1 LEGEND TEXT     *   Vereist
+[30] REQ 2 LEGEND TEXT     *   Vereist
+[31] OPTIONAL LEGEND TEXT  *   Optioneel
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED      *   Geblokkeerd
+[36] AUTHOR CREDIT TEXT    *   Script door
+[37] RESET PAGE LINK TEXT  *   Pagina resetten
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS     *   Fout! Vereiste informatie ontbreekt
+[40] MALFORMED EMAIL       *   Fout! Uw e-mailadres is onjuist  
+[41] HONEYPOT NOT EMPTY    *   Fout! Een verborgen leeg veld bevat gegevens. Als u menselijk bent, probeer opnieuw
+[42] ID MISMATCH ERROR     *   Fout! Er was een form ID wanverhouding
+[43] INVALID MENU ERROR    *   Fout! U maakte een ongeldige/onwettige menuselectie op
+[44] BLACKLISTED IP ERROR  *   Fout! De beheerder heeft uw IP adres op de zwarte lijst gezet wegens misbruik
+[45] FORM LOCKDOWN ERROR   *   Opgelet! Ons contactformulier is momenteel niet actief. Kom later even terug aub.
+[46] INPUT LENGTH ERROR    *   Fout! U hebt de maximumlengte van het invulveld overschreden... tot ziens 'bot
+[47] SEND VALUE MISSING    *   Fout! De verzonden gegevens zijn ongeldig of werden niet gevonden
+[48] INPUT EXPLOIT ERROR   *   Fout! Niet toegestane gegevens gevonden. Gelieve opnieuw te proberen: 
+[49] PROHIBITED LIST       *   Niet gebruiken
+[50] HEADER INJECTION      *   Fout! U hebt geprobeerd om ongeldige gegevens in het header veld op te nemen 
+[51] CC HEADER INJECTION   *   Fout! U hebt geprobeerd om ongeldige gegevens in het CC veld op te nemen 
+[52] SPAM Q&A ERROR PART 1 *   Fout! Uw antwoord aan
+[53] SPAM Q&A ERROR PART 2 *   is foutief. Het juiste antwoord is
+[54] HONEYPOT SUBMIT AGAIN *   Klik om te verzenden
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT    *   Succes! E-mail verzonden op
+[62] COPY SENT TEXT        *   Kopie verzonden
+[63] UNKNOWN BROWSER TEXT  *   Onbekende tekst
+[64] GREETING/SALUTATION   *   Hallo
+[65] MAIL INTRO TEXT       *   Een e-mail werd verzonden van
+[66] MAIL SUB TEXT         *   Hier het bericht
+[67] CONTACT DETAILS TEXT  *   Deze bijkomende informatie werd gegeven
+[68] DATA COLLECTED TEXT   *   Verzamelde inhoud
+[69] CC EMAIL COPY TEXT    *   E-mail kopie
+[70] MAIL CC INTRO TEXT    *   Dit is een kopie van een e-mail verzonden aan
+[71] NO ISP FOUND/UNKNOWN  *   ISP is niet gevonden of niet beschikbaar
+[72] NO REFERRER DATA      *   Referentie is niet beschikbaar
+[73] NO IP DATA FOUND      *   IP adres is niet beschikbaar
+[74] NO TIME STAMP FOUND   *   Tijdsindeling is niet beschikbaar
+[75] * 

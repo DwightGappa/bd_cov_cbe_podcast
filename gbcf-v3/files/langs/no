@@ -1,0 +1,76 @@
+[00] GBCF-V3 NORWEGIAN (NO) FILE - DO NOT ALTER FILE FORMAT - BY TORMOD RANGNES HTTP://BZA.NO
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT       *   Navn
+[03] EMAIL LABEL TEXT      *   Epost
+[04] ORG LABEL TEXT        *   Organisasjon
+[05] PHONE LABEL TEXT      *   Telefon
+[06] WEBSITE LABEL TEXT    *   Nettsted
+[07] ADDRESS 1 LABEL TEXT  *   Adresse
+[08] ADDRESS 2 LABEL TEXT  *   Adresse (fortsettelse)
+[09] CITY LABEL TEXT       *   Poststed
+[10] STATE LABEL TEXT      *   Fylke
+[11] POSTCODE LABEL TEXT   *   Postnummer
+[12] COUNTRY LABEL TEXT    *   Land
+[13] SUBJECT LABEL TEXT    *   Emne
+[14] OPTMENU LABEL TEXT    *   Henvist av
+[15] MESSAGE LABEL TEXT    *   Beskjed
+[16] HONEYPOT LABEL TEXT   *   La denne antispamfeltet være tomt
+[17] CC COPY LABEL TEXT    *   Merk for epostkopi
+[18] ANTI-SPAM EXPLANATION *   Ditt svar beviser at du er et menneske
+[19] MAIN LABEL TEXT       *   Skriv din informasjon i dette skjemaet for å sende oss en epost.
+[20] SUBMIT BUTTON TEXT    *   Send
+[21] REQUIRED SYMBOL       *   &#042;
+[22] REQUIRED TEXT         *   Betyr obligatorisk felt.
+[23] PRIVACY LINK TEXT     *   Personvernsprinsipper
+[24] TIME STAMP TEXT       *   Tidspunkt
+[25] SELECT DEFAULT TEXT   *   Velg en
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT      *   Kontaktskjema
+[29] REQ 1 LEGEND TEXT     *   Obligatorisk
+[30] REQ 2 LEGEND TEXT     *   Obligatorisk
+[31] OPTIONAL LEGEND TEXT  *   Valgfri
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED      *   Blokkert
+[36] AUTHOR CREDIT TEXT    *   Skript av
+[37] RESET PAGE LINK TEXT  *   Nullstill side
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS     *   Feilmelding! Obligatoriske felter er ikke fylt ut
+[40] MALFORMED EMAIL       *   Feilmelding! Din epostadresse er ugyldig
+[41] HONEYPOT NOT EMPTY    *   Feilmelding! Et skjult felt hadde informasjon. Dersom du er et menneske, forsøk igjen
+[42] ID MISMATCH ERROR     *   Feilmelding! Det var en uoverstemmelse i skjema-ID, noe som tyder på fjernposting
+[43] INVALID MENU ERROR    *   Feilmelding! Du har gjort et ugyldig menyvalg
+[44] BLACKLISTED IP ERROR  *   Feilmelding! Administratoren har svartelistet din IP på grunn av misbruk
+[45] FORM LOCKDOWN ERROR   *   NB! Vår kontaktskjema er avstengt nå. Prøv igjen senere!
+[46] INPUT LENGTH ERROR    *   Feilmelding! Du oversteg en maksimallengde i et av feltene... adjø 'bot
+[47] SEND VALUE MISSING    *   Feilmelding! Sendt informasjon var korrupt eller manglende
+[48] INPUT EXPLOIT ERROR   *   Feilmelding! Forbudt innhold ble funnet. Vennligst rediger: 
+[49] PROHIBITED LIST       *   Ikke bruk
+[50] HEADER INJECTION      *   Feilmelding! Du har forsøkt å sette inn ugyldig data i epost headeren
+[51] CC HEADER INJECTION   *   Feilmelding! Du har forsøkt å sette inn ugyldig data i kopi headeren
+[52] SPAM Q&A ERROR PART 1 *   Feilmelding! Ditt svar på
+[53] SPAM Q&A ERROR PART 2 *   er feil. Korrekt svar er 
+[54] HONEYPOT SUBMIT AGAIN *   Hopp til SEND 
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT    *   Epost sendt
+[62] COPY SENT TEXT        *   Kopy sendt
+[63] UNKNOWN BROWSER TEXT  *   Ukjent brukeragent
+[64] GREETING/SALUTATION   *   Hei
+[65] MAIL INTRO TEXT       *   En epost har blitt sendt fra
+[66] MAIL SUB TEXT         *   Her er beskjeden
+[67] CONTACT DETAILS TEXT  *   Følgende tilleggsinformasjon ble lagt ved
+[68] DATA COLLECTED TEXT   *   Informasjon samlet
+[69] CC EMAIL COPY TEXT    *   Epost kopi
+[70] MAIL CC INTRO TEXT    *   Dette er en kopi av epost sendt til
+[71] NO ISP FOUND/UNKNOWN  *   ISP informasjon er ikke tilgjengelig
+[72] NO REFERRER DATA      *   Referentinformasjon er ikke tilgjengelig
+[73] NO IP DATA FOUND      *   IP adresse er ikke tilgjengelig
+[74] NO TIME STAMP FOUND   *   Tidspunkt er ikke tilgjengelig
+[75] * 

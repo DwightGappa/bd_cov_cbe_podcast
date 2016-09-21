@@ -1,0 +1,75 @@
+[00] GBCF-V3 CATALAN (CA) FILE - DO NOT ALTER FILE FORMAT - BY BALBINA ESCALE 
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT        * Nom
+[03] EMAIL LABEL TEXT       * Correu Electrónic
+[04] ORG LABEL TEXT         * Organització
+[05] PHONE LABEL TEXT       * Teléfon
+[06] WEBSITE LABEL TEXT     * Lloc Web
+[07] ADDRESS 1 LABEL TEXT   * Direcció
+[08] ADDRESS 2 LABEL TEXT   * Direcció(Continúa)
+[09] CITY LABEL TEXT        * Ciutat/Població
+[10] STATE LABEL TEXT       * Estat/Provincia
+[11] POSTCODE LABEL TEXT    * Zip/Códig Postal
+[12] COUNTRY LABEL TEXT     * País
+[13] SUBJECT LABEL TEXT     * Subjecte
+[14] OPTMENU LABEL TEXT     * Recomanat per
+[15] MESSAGE LABEL TEXT     * Missatge
+[16] HONEYPOT LABEL TEXT    * Deixar aquesta trampa anti-spam buida
+[17] CC COPY LABEL TEXT     * Marcar casella per còpia de correu electrònic 
+[18] ANTI-SPAM EXPLANATION  * La vostra resposta és prova de que no sou "una maquina de Spam" 
+[19] MAIN LABEL TEXT        * Ompliu amb la vostra informació aquest formulari per enviar-nos un correu electrònic 
+[20] SUBMIT BUTTON TEXT     * Enviar
+[21] REQUIRED SYMBOL        * &#042;
+[22] REQUIRED TEXT          * Denota Camp Obligatori
+[23] PRIVACY LINK TEXT      * Pòlissa de Confidencialitat 
+[24] TIME STAMP TEXT        * Segell de Data i Horari
+[25] SELECT DEFAULT TEXT    * Seleccionar uno
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT       * Formulari de Contacte
+[29] REQ 1 LEGEND TEXT      * Obligatori
+[30] REQ 2 LEGEND TEXT      * Obligatori
+[31] OPTIONAL LEGEND TEXT   * Opcional
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED       * Intents 
+[36] AUTHOR CREDIT TEXT     * Script creat per
+[37] RESET PAGE LINK TEXT   * Reiniciar P� gina
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS      * Error! Camp Obligatori Buit 
+[40] MALFORMED EMAIL        * Error! La vostra adreça de correu electrònic est�  mal escrita
+[41] HONEYPOT NOT EMPTY     * Error! Un camp buit conté informació. Si sou hum� , mireu novament.
+[42] ID MISMATCH ERROR      * Error! Hi ha una incongruència en el formulari la qual cosa indica un enviament remot.
+[43] INVALID MENU ERROR     * Error! S'ha comes una selecció inv� lida / incorrecta de menú 
+[44] BLACKLISTED IP ERROR   * Error! L'administrador ha posat la seva IP a la llista negra a causa d'abús
+[45] FORM LOCKDOWN ERROR    * Avís! El formulari de contacte es troba tancat per ara. Visite-ns novament!
+[46] INPUT LENGTH ERROR     * Error! Vostè ha excedit el límit d'ingrés ... fins després
+[47] SEND VALUE MISSING     * Error! La data enviada est�  corrupta o falta.
+[48] INPUT EXPLOIT ERROR    * Error! Heu introduit contingut prohibit. Feu el favor d'editar el text
+[49] PROHIBITED LIST        * No utilitzar
+[50] HEADER INJECTION       * Error! Vostè ha tractat d'inserir una data il·legal en l'encapçalament de correu
+[51] CC HEADER INJECTION    * Error! Vostè ha tractat d'inserir una data il·legal en l'encapçalament de la copia del correu
+[52] SPAM Q&A ERROR PART 1  * Error! La vostra resposta a
+[53] SPAM Q&A ERROR PART 2  * Es incorrecte. La resposta correcta és 
+[54] HONEYPOT SUBMIT AGAIN  * Reingresa la informació
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT     * Èxit! Correu enviat el
+[62] COPY SENT TEXT         * Còpia enviada
+[63] UNKNOWN BROWSER TEXT   * Usuari desconegut
+[64] GREETING/SALUTATION    * Hola
+[65] MAIL INTRO TEXT        * Un correu ha estat enviat des de
+[66] MAIL SUB TEXT          * Aquí esta el missatge 
+[67] CONTACT DETAILS TEXT   * Aquesta informació ha estat proveïda
+[68] DATA COLLECTED TEXT    * Data recopilada
+[69] CC EMAIL COPY TEXT     * Enviar copia per correu
+[70] MAIL CC INTRO TEXT     * Aquesta és una còpia d'un correu enviat a
+[71] NO ISP FOUND/UNKNOWN   * Informació de ISP no disponible
+[72] NO REFERRER DATA       * Informació de qui refereix no disponible 
+[73] NO IP DATA FOUND       * Adreça d'IP no disponible 
+[74] NO TIME STAMP FOUND    * Segell de horari / data no disponible

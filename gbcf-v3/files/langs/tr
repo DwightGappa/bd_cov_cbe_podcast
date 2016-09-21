@@ -1,0 +1,76 @@
+[00] GBCF-V3 TURKISH (TR) FILE - DO NOT ALTER FILE FORMAT - BY TOLGA MIRMIRIK HTTP://MIRMIRIK.NET 
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT       *   Ad
+[03] EMAIL LABEL TEXT      *   E-Posta
+[04] ORG LABEL TEXT        *   Şirket
+[05] PHONE LABEL TEXT      *   Telefon
+[06] WEBSITE LABEL TEXT    *   Web Sitesi
+[07] ADDRESS 1 LABEL TEXT  *   Adres
+[08] ADDRESS 2 LABEL TEXT  *   Adres (devamı)
+[09] CITY LABEL TEXT       *   Şehir
+[10] STATE LABEL TEXT      *   İlçe
+[11] POSTCODE LABEL TEXT   *   Posta kodu
+[12] COUNTRY LABEL TEXT    *   Ülke
+[13] SUBJECT LABEL TEXT    *   Konu
+[14] OPTMENU LABEL TEXT    *   Siteyi nereden duydunuz?
+[15] MESSAGE LABEL TEXT    *   İletiniz
+[16] HONEYPOT LABEL TEXT   *   Leave this anti-spam trap empty
+[17] CC COPY LABEL TEXT    *   E-postanın kopyasını bana gönder
+[18] ANTI-SPAM EXPLANATION *   Cevabınız sizin bir insan olduğunuzu gösterecek
+[19] MAIN LABEL TEXT       *   Bu bölümdeki formu doldurarak bize e-posta gönderebilirsiniz.
+[20] SUBMIT BUTTON TEXT    *   Gönder
+[21] REQUIRED SYMBOL       *   &#042;
+[22] REQUIRED TEXT         *   Doldurulması zorunlu alanı belirtir.
+[23] PRIVACY LINK TEXT     *   Gizlilik anlaşması
+[24] TIME STAMP TEXT       *   Zaman bilgisi
+[25] SELECT DEFAULT TEXT   *   Lütfen seçiniz
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT      *   İletişim formu
+[29] REQ 1 LEGEND TEXT     *   Zorunlu
+[30] REQ 2 LEGEND TEXT     *   Zorunlu
+[31] OPTIONAL LEGEND TEXT  *   İsteğe bağlı
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED      *   Bloklanmış
+[36] AUTHOR CREDIT TEXT    *   Betik
+[37] RESET PAGE LINK TEXT  *   Sayfayı 
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS     *   Hata! Zorunlu alanlarda eksik var
+[40] MALFORMED EMAIL       *   Hata! E-Posta adresiniz geçerli değil
+[41] HONEYPOT NOT EMPTY    *   Hata! Gizli bir form elementi doldurulmuş. Eğer bir insansanız tekrar deneyiniz.
+[42] ID MISMATCH ERROR     *   Hata! Otomatik giriş yapıldığını gösteren bir hata oluştu. Form-ID değerinde bir yanlışlık var.
+[43] INVALID MENU ERROR    *   Hata! Açılır menüden yanlış bir değer seçilmiş.
+[44] BLACKLISTED IP ERROR  *   Hata! Yönetici sizin IP adresinizi bloklamış.
+[45] FORM LOCKDOWN ERROR   *   Dikkat! İletişim formumuz şimdilik kapalıdır. Lütfen daha sonra tekrar deneyiniz.
+[46] INPUT LENGTH ERROR    *   Hata! Giriş alanına fazla sayıda karakter girdiniz. Hoşçakal bot!
+[47] SEND VALUE MISSING    *   Hata! Gönderilen değer bozulmuş ya da yanlış girilmiş.
+[48] INPUT EXPLOIT ERROR   *   Hata! Geçersiz içerik bulundu. Lütfen düzeltiniz: 
+[49] PROHIBITED LIST       *   Kullanmayınız
+[50] HEADER INJECTION      *   Hata! E-Posta başlığında geçersiz değer var.
+[51] CC HEADER INJECTION   *   Hata! E-Posta başlığında geçersiz değer var.
+[52] SPAM Q&A ERROR PART 1 *   Hata!
+[53] SPAM Q&A ERROR PART 2 *   kısmına girilen değer doğru değildir. Doğru cevap:
+[54] HONEYPOT SUBMIT AGAIN *   Formu gönderme kısmına geç
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT    *   E-posta şu değerlerle başarıyla gönderildi:
+[62] COPY SENT TEXT        *   Kopya gönderildi.
+[63] UNKNOWN BROWSER TEXT  *   Bilinmeyen internet gezgini
+[64] GREETING/SALUTATION   *   Merhaba
+[65] MAIL INTRO TEXT       *   Şu kişiden bir e-posta geldi
+[66] MAIL SUB TEXT         *   İşte mesaj
+[67] CONTACT DETAILS TEXT  *   Ek olarak şu iletişim verileri de gönderildi
+[68] DATA COLLECTED TEXT   *   Data Collected
+[69] CC EMAIL COPY TEXT    *   E-Posta kopyası
+[70] MAIL CC INTRO TEXT    *   Şu siteye gönderdiğiniz e-posta' nın kopyasıdır:
+[71] NO ISP FOUND/UNKNOWN  *   ISS verisi bulunamadı.
+[72] NO REFERRER DATA      *   Hangi siteden geldiği bulunamadı.
+[73] NO IP DATA FOUND      *   IP adresi belirlenemedi.
+[74] NO TIME STAMP FOUND   *   Zaman bilgisi belirlenemedi.
+[75] * 

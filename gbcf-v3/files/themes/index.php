@@ -1,0 +1,1 @@
+<?php die ('<h2>Directory Access Prohibited</h2>'); ?>

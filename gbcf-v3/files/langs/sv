@@ -1,0 +1,76 @@
+﻿[00] GBCF-V3 SWEDISH (SV) FILE - DO NOT ALTER FILE FORMAT - BY TOMMY OLSSON HTTP://AUTISTICCUCKOO.NET  
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT       *   Namn
+[03] EMAIL LABEL TEXT      *   E-post
+[04] ORG LABEL TEXT        *   Organisation
+[05] PHONE LABEL TEXT      *   Telefon
+[06] WEBSITE LABEL TEXT    *   Webbsajt
+[07] ADDRESS 1 LABEL TEXT  *   Adress
+[08] ADDRESS 2 LABEL TEXT  *   Adress (forts)
+[09] CITY LABEL TEXT       *   Ort
+[10] STATE LABEL TEXT      *   Används inte
+[11] POSTCODE LABEL TEXT   *   Postnummer
+[12] COUNTRY LABEL TEXT    *   Land
+[13] SUBJECT LABEL TEXT    *   Ämne
+[14] OPTMENU LABEL TEXT    *   Hänvisad av
+[15] MESSAGE LABEL TEXT    *   Meddelande
+[16] HONEYPOT LABEL TEXT   *   Lämna denna spamfälla tom
+[17] CC COPY LABEL TEXT    *   Markera för egen kopia
+[18] ANTI-SPAM EXPLANATION *   Ditt svar bevisar att du är en människa
+[19] MAIN LABEL TEXT       *   Fyll i dina uppgifter i formuläret för att skicka e-post till oss
+[20] SUBMIT BUTTON TEXT    *   Skicka
+[21] REQUIRED SYMBOL       *   &#042;
+[22] REQUIRED TEXT         *   Anger obligatoriska fält.
+[23] PRIVACY LINK TEXT     *   Integritetspolicy
+[24] TIME STAMP TEXT       *   Klockslag
+[25] SELECT DEFAULT TEXT   *   Välj en
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT      *   Kontaktformulär
+[29] REQ 1 LEGEND TEXT     *   Obligatorisk
+[30] REQ 2 LEGEND TEXT     *   Obligatorisk
+[31] OPTIONAL LEGEND TEXT  *   Frivillig
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED      *   Blockerad
+[36] AUTHOR CREDIT TEXT    *   Skript av
+[37] RESET PAGE LINK TEXT  *   Återställ sida
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS     *   Fel! Obligatoriska fält ej ifyllda
+[40] MALFORMED EMAIL       *   Fel! Din e-postadress är inte korrekt
+[41] HONEYPOT NOT EMPTY    *   Fel! Ett dolt fält som ska vara tomt innehåller data. Om du är en människa, försök igen
+[42] ID MISMATCH ERROR     *   Fel! Formulär-ID stämmer inte överens, vilket indikerar fjärranvändning
+[43] INVALID MENU ERROR    *   Fel! Du har gjort ett felaktigt/otillåtet menyval av
+[44] BLACKLISTED IP ERROR  *   Fel! Administratören har svartlistat din IP-adress på grund av missbruk
+[45] FORM LOCKDOWN ERROR   *   Obs! Vårt kontaktformulär är för tillfället avstängt. Välkommen tillbaka senare!
+[46] INPUT LENGTH ERROR    *   Fel! Du har överskridit maxlängden för ett inmatningsfält... adjö, robot
+[47] SEND VALUE MISSING    *   Fel! Skickade data är skadade eller saknas
+[48] INPUT EXPLOIT ERROR   *   Fel! Förbjudet innehåll påträffat. Var god ändra: 
+[49] PROHIBITED LIST       *   Använd inte
+[50] HEADER INJECTION      *   Fel! Du har försökt infoga otillåtna data i e-posthuvudet
+[51] CC HEADER INJECTION   *   Fel! Du har försökt infoga otillåtna data i kopiefältet
+[52] SPAM Q&A ERROR PART 1 *   Fel! Ditt svar på
+[53] SPAM Q&A ERROR PART 2 *   är felaktigt. Rätt svar är
+[54] HONEYPOT SUBMIT AGAIN *   Hoppa till Skicka
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT    *   E-post skickad
+[62] COPY SENT TEXT        *   Kopia skickad
+[63] UNKNOWN BROWSER TEXT  *   Okänd webbläsare
+[64] GREETING/SALUTATION   *   Hej
+[65] MAIL INTRO TEXT       *   Ett e-brev har skickats från
+[66] MAIL SUB TEXT         *   Här är meddelandet
+[67] CONTACT DETAILS TEXT  *   Följande tilläggsinformation har angivits
+[68] DATA COLLECTED TEXT   *   Data insamlade
+[69] CC EMAIL COPY TEXT    *   E-postkopia
+[70] MAIL CC INTRO TEXT    *   Detta är en kopia av ett e-brev skickat till
+[71] NO ISP FOUND/UNKNOWN  *   Leverantörsdata ej tillgängliga
+[72] NO REFERRER DATA      *   Hänvisningsdata ej tillgängliga
+[73] NO IP DATA FOUND      *   IP-adressdata ej tillgängliga
+[74] NO TIME STAMP FOUND   *   Klockslagsdata ej tillgängliga
+[75] * 

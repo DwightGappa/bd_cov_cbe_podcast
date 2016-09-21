@@ -1,0 +1,76 @@
+[00] GBCF-V3 FINNISH (FI) FILE - DO NOT ALTER FILE FORMAT - DAVE AND PIRJO PRESCOTT HTTP://PP.KPNET.FI/PRESCOTT/  
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT       *   Nimi
+[03] EMAIL LABEL TEXT      *   Sähköposti
+[04] ORG LABEL TEXT        *   Yritys tai yhdistys
+[05] PHONE LABEL TEXT      *   Puhelin
+[06] WEBSITE LABEL TEXT    *   Nettisivusto
+[07] ADDRESS 1 LABEL TEXT  *   Osoite
+[08] ADDRESS 2 LABEL TEXT  *   Osoite (jatkuu)
+[09] CITY LABEL TEXT       *   Kaupunki
+[10] STATE LABEL TEXT      *   Lääni
+[11] POSTCODE LABEL TEXT   *   Postinumero
+[12] COUNTRY LABEL TEXT    *   Maa
+[13] SUBJECT LABEL TEXT    *   Aihe
+[14] OPTMENU LABEL TEXT    *   Suosittelija
+[15] MESSAGE LABEL TEXT    *   Viesti
+[16] HONEYPOT LABEL TEXT   *   Jätä tyhjäksi
+[17] CC COPY LABEL TEXT    *   Tarkista sähköpostikopio
+[18] ANTI-SPAM EXPLANATION *   Vastauksesi varmistaa, että olet henkilö
+[19] MAIN LABEL TEXT       *   Täytä henkilötietosi tähän kaavakkeeseen lähettääksesi meille sähköpostia.
+[20] SUBMIT BUTTON TEXT    *   Lähetä
+[21] REQUIRED SYMBOL       *   &#042;
+[22] REQUIRED TEXT         *   Vaadittu.
+[23] PRIVACY LINK TEXT     *   Yksiyissuoja
+[24] TIME STAMP TEXT       *   Aika
+[25] SELECT DEFAULT TEXT   *   Valitse yksi
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT      *   Yhteydenottokaavake
+[29] REQ 1 LEGEND TEXT     *   Vaadittu
+[30] REQ 2 LEGEND TEXT     *   Vaadittu
+[31] OPTIONAL LEGEND TEXT  *   Vapaaehtoinen
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED      *   Estetty
+[36] AUTHOR CREDIT TEXT    *   Kirjoitus luona
+[37] RESET PAGE LINK TEXT  *   Aloita uudelleen
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS     *   Virhe! Vaadittu alue puuttuu
+[40] MALFORMED EMAIL       *   Virhe! Sähköpostiosoitteesi on virheellinen 
+[41] HONEYPOT NOT EMPTY    *   Virhe! Aloita uudelleen
+[42] ID MISMATCH ERROR     *   Virhe! Paikalla asu ID epä- - käydä indikatiivi -lta etäinen asettaa
+[43] INVALID MENU ERROR    *   Virhe! Valitsit poistuneen/laittoman
+[44] BLACKLISTED IP ERROR  *   Virhe! Hallintomies has blacklisted sinun IP kohdistaa arvonmukainen jotta haukkua
+[45] FORM LOCKDOWN ERROR   *   Huomaa! Yhteystietokaavakkeemme on lukittu toistaiseksi. Tarkista pian uudestaan!
+[46] INPUT LENGTH ERROR    *   Virhe! Te nousta yli enimmäis- hevosmitta syöttää kaventaa... hyvästi 'bot
+[47] SEND VALUE MISSING    *   Virhe! Lennättää arvo aineisto alistaa lahjoa eli puuttuva
+[48] INPUT EXPLOIT ERROR   *   Virhe! Kielletty sisältä havaittu. Vaihda:
+[49] PROHIBITED LIST       *   Älä käytä
+[50] HEADER INJECTION      *   Virhe! Olert yrittänyt sisällyttää laitonta materiaalia viestin otsikkoon
+[51] CC HEADER INJECTION   *   Virhe! Olet yrittänyt sisällyttää laitonta materiaalia
+[52] SPAM Q&A ERROR PART 1 *   Virhe! Sinun olla vastuussa jotta
+[53] SPAM Q&A ERROR PART 2 *   on epätarkka. aivan olla vastuussa on
+[54] HONEYPOT SUBMIT AGAIN *   Hyppy jotta Alistaa 
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT    *   Menestys Email lennättää model after
+[62] COPY SENT TEXT        *   Kopio lähetetty
+[63] UNKNOWN BROWSER TEXT  *   Nyt kuluva lisä ilmianto sillä ehdolla
+[64] GREETING/SALUTATION   *   Hei
+[65] MAIL INTRO TEXT       *   Sähköposti on lähetetty kohteesta
+[66] MAIL SUB TEXT         *   Tähän asia
+[67] CONTACT DETAILS TEXT  *   Nyt kuluva lisä ilmianto sillä ehdolla
+[68] DATA COLLECTED TEXT   *   Kerätyt tiedot
+[69] CC EMAIL COPY TEXT    *   Sähköpostikopia
+[70] MAIL CC INTRO TEXT    *   Tämä on kopio sähköpostista joka on lähetetty
+[71] NO ISP FOUND/UNKNOWN  *   ISP ei saatavilla
+[72] NO REFERRER DATA      *   Alistaa ei saatavilla
+[73] NO IP DATA FOUND      *   IP osoite ei saatavilla
+[74] NO TIME STAMP FOUND   *   Aika ei saatavilla
+[75] *

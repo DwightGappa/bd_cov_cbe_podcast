@@ -1,0 +1,76 @@
+﻿[00] GBCF-V3 PORTUGUESE (PT) FILE - DO NOT ALTER FILE FORMAT - BY JOÃO ALEXANDRE HTTP://WWW.RETRATEX.COM
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT       *   Nome
+[03] EMAIL LABEL TEXT      *   Email
+[04] ORG LABEL TEXT        *   Organização
+[05] PHONE LABEL TEXT      *   Telefone/Telemóvel
+[06] WEBSITE LABEL TEXT    *   Website
+[07] ADDRESS 1 LABEL TEXT  *   Morada
+[08] ADDRESS 2 LABEL TEXT  *   Morada (continuação)
+[09] CITY LABEL TEXT       *   Cidade
+[10] STATE LABEL TEXT      *   Distrito
+[11] POSTCODE LABEL TEXT   *   Código Postal
+[12] COUNTRY LABEL TEXT    *   País
+[13] SUBJECT LABEL TEXT    *   Assunto
+[14] OPTMENU LABEL TEXT    *   Referenciado por
+[15] MESSAGE LABEL TEXT    *   Mensagem
+[16] HONEYPOT LABEL TEXT   *   Deixe esta armadilha de anti-spam vazia
+[17] CC COPY LABEL TEXT    *   Assinale para cópia de email
+[18] ANTI-SPAM EXPLANATION *   Sua resposta não foi produzida por uma pessoa
+[19] MAIN LABEL TEXT       *   Digite a sua informação neste formulário para enviar um e-mail para nós.
+[20] SUBMIT BUTTON TEXT    *   Enviar
+[21] REQUIRED SYMBOL       *   &#042;
+[22] REQUIRED TEXT         *   Estipule campos requeridos.
+[23] PRIVACY LINK TEXT     *   Política de Privacidade
+[24] TIME STAMP TEXT       *   Fuso horário
+[25] SELECT DEFAULT TEXT   *   Seleccione um
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT      *   Formulário de Contacto
+[29] REQ 1 LEGEND TEXT     *   Obrigatório
+[30] REQ 2 LEGEND TEXT     *   Obrigatório
+[31] OPTIONAL LEGEND TEXT  *   Opcional
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED      *   Bloqueado
+[36] AUTHOR CREDIT TEXT    *   Script por
+[37] RESET PAGE LINK TEXT  *   Limpar Página
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS     *   Erro! Faltam campos obrigatórios
+[40] MALFORMED EMAIL       *   Erro! O seu email é inválido
+[41] HONEYPOT NOT EMPTY    *   Erro! Uma entrada vazia oculta possui dados. Se você é uma pessoa, tente novamente
+[42] ID MISMATCH ERROR     *   Erro! Há um formulário com ID igual a outro indicando uma postagem remota
+[43] INVALID MENU ERROR    *   Erro! Você selecionou uma entrada inválida/ilegal nas escolhas do menu
+[44] BLACKLISTED IP ERROR  *   Erro! O administrador bloqueou-o através do seu número de IP por abuso ou mal uso deste formulário
+[45] FORM LOCKDOWN ERROR   *   Alerta! O nosso formulário de contacto está fechado por agora. Volte em breve!
+[46] INPUT LENGTH ERROR    *   Erro! Você excedeu o limite máximo de caracteres...
+[47] SEND VALUE MISSING    *   Erro! O valor de dados para envio está corrompido ou em falta
+[48] INPUT EXPLOIT ERROR   *   Erro! Conteúdo proibido encontrado. Por favor, edite:
+[49] PROHIBITED LIST       *   Não Use
+[50] HEADER INJECTION      *   Erro! Você possui uma tentativa de inserção ilegal de dados no cabeçalho do email
+[51] CC HEADER INJECTION   *   Erro! Você possui uma tentativa de inserção ilegal de dados no cabeçalho de cópia do email
+[52] SPAM Q&A ERROR PART 1 *   Erro! Sua resposta para
+[53] SPAM Q&A ERROR PART 2 *   está incorreta. A resposta correcta é
+[54] HONEYPOT SUBMIT AGAIN *   Pular para Enviar
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT    *   Sucesso! Email enviado em
+[62] COPY SENT TEXT        *   Cópia enviada
+[63] UNKNOWN BROWSER TEXT  *   Navegador do usuário desconhecido
+[64] GREETING/SALUTATION   *   Olá
+[65] MAIL INTRO TEXT       *   Um email foi enviado de
+[66] MAIL SUB TEXT         *   Aqui está a mensagem
+[67] CONTACT DETAILS TEXT  *   Esta informação adicional foi fornecida
+[68] DATA COLLECTED TEXT   *   Dados colectados
+[69] CC EMAIL COPY TEXT    *   Cópia de Email
+[70] MAIL CC INTRO TEXT    *   Esta é uma cópia de um email enviado para
+[71] NO ISP FOUND/UNKNOWN  *   Dados de ISP não disponível
+[72] NO REFERRER DATA      *   Dados de referência não disponível
+[73] NO IP DATA FOUND      *   Endereço de IP não disponível
+[74] NO TIME STAMP FOUND   *   Dados de Fuso Horário não disponível
+[75] * 

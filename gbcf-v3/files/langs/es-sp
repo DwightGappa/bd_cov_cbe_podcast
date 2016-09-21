@@ -1,0 +1,76 @@
+GBCF-V3 SPANISH (ES-SP) FILE - DO NOT ALTER FILE FORMAT - BY LAURA MORENO HTTP://WWW.LAURAMORENO.CO.UK
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT        * Nombre
+[03] EMAIL LABEL TEXT       * Correo Electrónico
+[04] ORG LABEL TEXT         * Organización
+[05] PHONE LABEL TEXT       * Teléfono
+[06] WEBSITE LABEL TEXT     * Pagina Web
+[07] ADDRESS 1 LABEL TEXT   * Dirección
+[08] ADDRESS 2 LABEL TEXT   * Dirección(continúa)
+[09] CITY LABEL TEXT        * Ciudad/Población
+[10] STATE LABEL TEXT       * Provincia
+[11] POSTCODE LABEL TEXT    * Código Postal
+[12] COUNTRY LABEL TEXT     * País
+[13] SUBJECT LABEL TEXT     * Asunto
+[14] OPTMENU LABEL TEXT     * Referido por
+[15] MESSAGE LABEL TEXT     * Mensaje
+[16] HONEYPOT LABEL TEXT    * Dejar esta trampa anti-spam vacía
+[17] CC COPY LABEL TEXT     * Marcar la casilla para una copia de correo electrónico
+[18] ANTI-SPAM EXPLANATION  * La respuesta prueba de que eres humano
+[19] MAIN LABEL TEXT        * Escribe tu información de esta forma para enviar un correo electrónico
+[20] SUBMIT BUTTON TEXT     * Enviar
+[21] REQUIRED SYMBOL        * &#042;
+[22] REQUIRED TEXT          * Campo Requerido
+[23] PRIVACY LINK TEXT      * Póliza de Confidencialidad
+[24] TIME STAMP TEXT        * Fecha y Hora
+[25] SELECT DEFAULT TEXT    * Seleccionar uno
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT       * Formulario de Contacto
+[29] REQ 1 LEGEND TEXT      * Requerido
+[30] REQ 2 LEGEND TEXT      * Requerido
+[31] OPTIONAL LEGEND TEXT   * Opcional
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED       * Bloqueado
+[36] AUTHOR CREDIT TEXT     * Script creado por
+[37] RESET PAGE LINK TEXT   * Reiniciar la Página
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS      * Error! Campo Requerido no Completado
+[40] MALFORMED EMAIL        * Error! La Dirección de Correo Electrónico está mal escrita
+[41] HONEYPOT NOT EMPTY     * Error! Un campo vacío contiene información. Si eres humano, intentalo otra vez.
+[42] ID MISMATCH ERROR      * Error! Hay una anomalía en el envío remoto.
+[43] INVALID MENU ERROR     * Error! Se cometió una selección inválida/incorrecta de menú en
+[44] BLACKLISTED IP ERROR   * Error! El administrador ha puesto su IP en la lista negra debido a abuso
+[45] FORM LOCKDOWN ERROR    * Aviso! Nuestro formulario de contacto esta cerrado por ahora. Visitanos nuevamente!
+[46] INPUT LENGTH ERROR     * Error! Ha excedido el límite permitido de ingreso... hasta luego
+[47] SEND VALUE MISSING     * Error! La data enviada estan corrupta o falta.
+[48] INPUT EXPLOIT ERROR    * Error! Contenido prohibido encontrado. Por favor editalo
+[49] PROHIBITED LIST        * No usar
+[50] HEADER INJECTION       * Error! Ha tratado de insertar data ilegal en el encabezado de correo
+[51] CC HEADER INJECTION    * Error! Ha intentado insertar data ilegal en el encabezado de copia del correo
+[52] SPAM Q&A ERROR PART 1  * Error! La respuesta a
+[53] SPAM Q&A ERROR PART 2  * Está incorrecto. La respuesta correcta es
+[54] HONEYPOT SUBMIT AGAIN  * Ir a enviar
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT     * Exito! Correo enviado el
+[62] COPY SENT TEXT         * Copia enviada
+[63] UNKNOWN BROWSER TEXT   * Usuario desconocido
+[64] GREETING/SALUTATION    * Hola
+[65] MAIL INTRO TEXT        * Un correo ha sido enviado desde
+[66] MAIL SUB TEXT          * Aquí esta el mensaje
+[67] CONTACT DETAILS TEXT   * Esta información adicional ha sido facilitada
+[68] DATA COLLECTED TEXT    * Data Recopilada
+[69] CC EMAIL COPY TEXT     * Enviar copia por correo
+[70] MAIL CC INTRO TEXT     * Esta es una copia del correo enviado a
+[71] NO ISP FOUND/UNKNOWN   * Información de ISP no disponible
+[72] NO REFERRER DATA       * Información de quien refiere no disponible
+[73] NO IP DATA FOUND       * Dirección de IP no disponible
+[74] NO TIME STAMP FOUND    * Información de la hora/fecha no disponible 
+[75] *

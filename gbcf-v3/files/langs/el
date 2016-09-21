@@ -1,0 +1,76 @@
+[00] GBCF-V3 GREEK (EL) FILE - DO NOT ALTER FILE FORMAT - BY PANOS CHRONOPOULOS
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT       *   'Ονομα
+[03] EMAIL LABEL TEXT      *   Email
+[04] ORG LABEL TEXT        *   Εταιρία
+[05] PHONE LABEL TEXT      *   Τηλέφωνο
+[06] WEBSITE LABEL TEXT    *   Ιστοσελίδα
+[07] ADDRESS 1 LABEL TEXT  *   Διεύθυνση
+[08] ADDRESS 2 LABEL TEXT  *   Διεύθυνση (συνέχεια)
+[09] CITY LABEL TEXT       *   Πόλη
+[10] STATE LABEL TEXT      *   Περιοχή
+[11] POSTCODE LABEL TEXT   *   Ταχ. κώδικας
+[12] COUNTRY LABEL TEXT    *   Χώρα
+[13] SUBJECT LABEL TEXT    *   Θέμα
+[14] OPTMENU LABEL TEXT    *   Σύσταση από
+[15] MESSAGE LABEL TEXT    *   Μήνυμα
+[16] HONEYPOT LABEL TEXT   *   Αφήστε το πεδίο κενό (anti-spam)
+[17] CC COPY LABEL TEXT    *   Θέλετε αντίγραφο;
+[18] ANTI-SPAM EXPLANATION *   Απάντηση ασφαλείας
+[19] MAIN LABEL TEXT       *   Συμπληρώστε τα ακόλουθα πεδία για να επικοινωνήσετε μαζί μας.
+[20] SUBMIT BUTTON TEXT    *   Αποστολή
+[21] REQUIRED SYMBOL       *   &#042;
+[22] REQUIRED TEXT         *   Υποχρεωτικό πεδίο.
+[23] PRIVACY LINK TEXT     *   Προσωπικά δεδομένα
+[24] TIME STAMP TEXT       *   Ημερ./'Ωρα
+[25] SELECT DEFAULT TEXT   *   Επιλέξτε
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT      *   Φόρμα επικοινωνίας
+[29] REQ 1 LEGEND TEXT     *   Υποχρεωτικό
+[30] REQ 2 LEGEND TEXT     *   Υποχρεωτικό
+[31] OPTIONAL LEGEND TEXT  *   Προαιρετικό
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED      *   Σφάλματα
+[36] AUTHOR CREDIT TEXT    *   Script by
+[37] RESET PAGE LINK TEXT  *   Επαναφορά φόρμας
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS     *   Σφάλμα! Υποχρεωτικά πεδία κενά
+[40] MALFORMED EMAIL       *   Σφάλμα! Η διεύθυνση email σας περιέχει λάθη 
+[41] HONEYPOT NOT EMPTY    *   Σφάλμα! A hidden empty input had data. If you're human, try again
+[42] ID MISMATCH ERROR     *   Σφάλμα! Υπήρξε πρόβλημα στη διασταύρωση κωδικού ασφαλείας ID
+[43] INVALID MENU ERROR    *   Σφάλμα! Κάποια επιλογή είναι λανθασμένη
+[44] BLACKLISTED IP ERROR  *   Σφάλμα! Ο διαχειριστής έχει μπλοκάρει την ip σας
+[45] FORM LOCKDOWN ERROR   *   Προσοχή! Η φόρμα επικοινωνίας είναι προσωρινά μη διαθέσιμη. Δοκιμάστε αργότερα!
+[46] INPUT LENGTH ERROR    *   Σφάλμα! Ξεπεράσατε τον μέγιστο αριθμό χαρακτήρων
+[47] SEND VALUE MISSING    *   Σφάλμα! The send value data submitted was corrupted or missing
+[48] INPUT EXPLOIT ERROR   *   Σφάλμα! Απαγορευμένο περιεχόμενο. Δοκιμάστε ξανά: 
+[49] PROHIBITED LIST       *   Δεν χρησιμοποιείται
+[50] HEADER INJECTION      *   Σφάλμα! Χρησιμοποιήσατε απαγορευμένους χαρακτήρες
+[51] CC HEADER INJECTION   *   Σφάλμα! Χρησιμοποιήσατε απαγορευμένους χαρακτήρες στο αντίγραφο
+[52] SPAM Q&A ERROR PART 1 *   Σφάλμα! Η απάντηση σας στο
+[53] SPAM Q&A ERROR PART 2 *   είναι λάθος. Η σωστή απάντηση είναι
+[54] HONEYPOT SUBMIT AGAIN *   Δοκιμάστε ξανά 
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT    *   Το email σας εστάλλει επιτυχώς!
+[62] COPY SENT TEXT        *   Εστάλλει αντίγραφο
+[63] UNKNOWN BROWSER TEXT  *   Άγνωστο πρόγραμμα περιήγησης
+[64] GREETING/SALUTATION   *   Χαίρετε
+[65] MAIL INTRO TEXT       *   Σας έχει σταλλεί ένα email από
+[66] MAIL SUB TEXT         *   Το μήνυμα είναι το εξής:
+[67] CONTACT DETAILS TEXT  *   Περισσότερες πληροφορίες
+[68] DATA COLLECTED TEXT   *   Χρήσιμα δεδομένα
+[69] CC EMAIL COPY TEXT    *   Αντίγραφο email
+[70] MAIL CC INTRO TEXT    *   Αυτό είναι ένα e-mail που στείλατε στον/στην
+[71] NO ISP FOUND/UNKNOWN  *   ISP άγνωστος/μη διαθέσιμος
+[72] NO REFERRER DATA      *   Δεδομένα referrer μη διαθέσιμα
+[73] NO IP DATA FOUND      *   IP διεύθυνση άγνωστη
+[74] NO TIME STAMP FOUND   *   Ημερ./Ώρα Αποστολής μη διαθέσιμη
+[75] * 

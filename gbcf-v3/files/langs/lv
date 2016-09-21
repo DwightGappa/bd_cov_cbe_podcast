@@ -1,0 +1,76 @@
+[00] GBCF-V3 LATVIAN (LV) FILE - DO NOT ALTER FILE FORMAT - BY EDGARS KALCHENKO
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT       *   Vārds
+[03] EMAIL LABEL TEXT      *   e-pasts
+[04] ORG LABEL TEXT        *   Uzņēmums
+[05] PHONE LABEL TEXT      *   Tālrunis
+[06] WEBSITE LABEL TEXT    *   Mājaslapa
+[07] ADDRESS 1 LABEL TEXT  *   Adrese
+[08] ADDRESS 2 LABEL TEXT  *   Adrese (turpinājums)
+[09] CITY LABEL TEXT       *   Pilsēta
+[10] STATE LABEL TEXT      *   Rajons
+[11] POSTCODE LABEL TEXT   *   Pasta indekss
+[12] COUNTRY LABEL TEXT    *   Valsts
+[13] SUBJECT LABEL TEXT    *   Temats
+[14] OPTMENU LABEL TEXT    *   Kā Jūs par mums uzzinājāt?
+[15] MESSAGE LABEL TEXT    *   Ziņojums
+[16] HONEYPOT LABEL TEXT   *   Atstājiet tukšu šo laukumu
+[17] CC COPY LABEL TEXT    *   Vēlos saņemt šī ziņojuma kopi�ju
+[18] ANTI-SPAM EXPLANATION *   Jūsu atbilde apstiprina, ka Jūs esat cilvēks
+[19] MAIN LABEL TEXT       *   Lūdzu, aizpildiet šo kontaktformu, lai nosūtītu ziņojumu
+[20] SUBMIT BUTTON TEXT    *   Nosūtīt
+[21] REQUIRED SYMBOL       *   &#042;
+[22] REQUIRED TEXT         *   Obligāti aizpildāmie lauki
+[23] PRIVACY LINK TEXT     *   Privātums
+[24] TIME STAMP TEXT       *   Laiks
+[25] SELECT DEFAULT TEXT   *   Izvēlieties
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT      *   Saziņas kontaktforma
+[29] REQ 1 LEGEND TEXT     *   Obligātā informācija
+[30] REQ 2 LEGEND TEXT     *   Obligātā informācija
+[31] OPTIONAL LEGEND TEXT  *   Papildus informācija
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED      *   Bloķēti
+[36] AUTHOR CREDIT TEXT    *   Koda autors
+[37] RESET PAGE LINK TEXT  *   Pārlādēt lapu
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS     *   Kļūda! Nav norādīta informācija sekojošos laukos
+[40] MALFORMED EMAIL       *   Kļūda! Pārbaudiet e-pasta adresi
+[41] HONEYPOT NOT EMPTY    *   Kļūda! Mēģiniet vēlreiz
+[42] ID MISMATCH ERROR     *   ID norādīts nepareizi
+[43] INVALID MENU ERROR    *   Kļūda! Izvēlnē nepareizi norādīti dati
+[44] BLACKLISTED IP ERROR  *   Kļūda! Jūsu IP adrese ir melnajā sarakstā
+[45] FORM LOCKDOWN ERROR   *   Uzmanību! Saziņas kontaktforma uz laiku nav pieejama! Mēģiniet vēlāk
+[46] INPUT LENGTH ERROR    *   Kļūda! Iespējamo rakstu zīmju skaits ir pārsniegts
+[47] SEND VALUE MISSING    *   Kļūda datu pārraidē
+[48] INPUT EXPLOIT ERROR   *   Kļūda! Ziņojums satur neatbilstošus datus. Lūdzu, rediģējiet:
+[49] PROHIBITED LIST       *   Aizliegto adrešu saraksts
+[50] HEADER INJECTION      *   Kļūda! Ziņojuma galvenē ievadītas neatļautas rakstu zīmes
+[51] CC HEADER INJECTION   *   Kļūda! Ziņojuma kopijas galvenē ievadītas neatļautas rakstu zīmes
+[52] SPAM Q&A ERROR PART 1 *   Kļuda! Jūsu atbilde
+[53] SPAM Q&A ERROR PART 2 *   Nepareizi! Pareizā atbilde
+[54] HONEYPOT SUBMIT AGAIN *   Pāriet pie ziņojuma nosūtīšanas
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT    *   ziņojums veiksmīgi nosūtīts
+[62] COPY SENT TEXT        *   Kopija nosūtīta
+[63] UNKNOWN BROWSER TEXT  *   Nezināms pārlūka tips
+[64] GREETING/SALUTATION   *   Labdien,
+[65] MAIL INTRO TEXT       *   Ziņojums nosūtīts no
+[66] MAIL SUB TEXT         *   Ziņojuma teksts
+[67] CONTACT DETAILS TEXT  *   Kontaktinformācija
+[68] DATA COLLECTED TEXT   *   Papildus informācija
+[69] CC EMAIL COPY TEXT    *   Ziņojuma kopija
+[70] MAIL CC INTRO TEXT    *   Ziņojuma kopija nosūtīta
+[71] NO ISP FOUND/UNKNOWN  *   Informācija par ISP nav pieejama
+[72] NO REFERRER DATA      *   REF dati nav pieejami
+[73] NO IP DATA FOUND      *   Informācija par IP nav pieejama
+[74] NO TIME STAMP FOUND   *   Informācija par ziņojuma sūtīšanas laiku nav pieejama
+[75] * 

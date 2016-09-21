@@ -1,0 +1,76 @@
+[00] GBCF-V3 ENGLISH (EN) FILE - DO NOT ALTER FILE FORMAT - BY MIKE CHERIM HTTP://GREEN-BEAST.COM  
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT       *   Name
+[03] EMAIL LABEL TEXT      *   Email
+[04] ORG LABEL TEXT        *   Organization
+[05] PHONE LABEL TEXT      *   Phone
+[06] WEBSITE LABEL TEXT    *   Website
+[07] ADDRESS 1 LABEL TEXT  *   Address
+[08] ADDRESS 2 LABEL TEXT  *   Address (continued)
+[09] CITY LABEL TEXT       *   City/town
+[10] STATE LABEL TEXT      *   State/province
+[11] POSTCODE LABEL TEXT   *   Zip/postal code
+[12] COUNTRY LABEL TEXT    *   Country
+[13] SUBJECT LABEL TEXT    *   Subject
+[14] OPTMENU LABEL TEXT    *   Referred by
+[15] MESSAGE LABEL TEXT    *   Message
+[16] HONEYPOT LABEL TEXT   *   Leave this anti-spam trap empty
+[17] CC COPY LABEL TEXT    *   Check for email copy
+[18] ANTI-SPAM EXPLANATION *   Your answer proves you're a person
+[19] MAIN LABEL TEXT       *   Enter your info in this form to send us an email.
+[20] SUBMIT BUTTON TEXT    *   Submit
+[21] REQUIRED SYMBOL       *   &#042;
+[22] REQUIRED TEXT         *   Denotes required field.
+[23] PRIVACY LINK TEXT     *   Privacy Policy
+[24] TIME STAMP TEXT       *   Time stamp
+[25] SELECT DEFAULT TEXT   *   Select one
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT      *   Contact Form
+[29] REQ 1 LEGEND TEXT     *   Required
+[30] REQ 2 LEGEND TEXT     *   Required
+[31] OPTIONAL LEGEND TEXT  *   Optional
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED      *   Blocked
+[36] AUTHOR CREDIT TEXT    *   Script by
+[37] RESET PAGE LINK TEXT  *   Reset Page
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS     *   Error! Required fields missed
+[40] MALFORMED EMAIL       *   Error! Your email address is malformed 
+[41] HONEYPOT NOT EMPTY    *   Error! A hidden empty input had data. If you're human, try again
+[42] ID MISMATCH ERROR     *   Error! There was a form ID mis-match indicative of remote posting
+[43] INVALID MENU ERROR    *   Error! You made an invalid/illegal menu selection on
+[44] BLACKLISTED IP ERROR  *   Error! The administrator has blacklisted your IP address due to abuse
+[45] FORM LOCKDOWN ERROR   *   Notice! Our contact form is locked down for now. Check back soon!
+[46] INPUT LENGTH ERROR    *   Error! You exceeded a maxlength input limit... good-bye 'bot
+[47] SEND VALUE MISSING    *   Error! The send value data submitted was corrupted or missing
+[48] INPUT EXPLOIT ERROR   *   Error! Prohibited content found. Please edit: 
+[49] PROHIBITED LIST       *   Do Not Use
+[50] HEADER INJECTION      *   Error! You have attempted to insert illegal data into the mail header
+[51] CC HEADER INJECTION   *   Error! You have attempted to insert illegal data into the copy header
+[52] SPAM Q&A ERROR PART 1 *   Error! Your answer to
+[53] SPAM Q&A ERROR PART 2 *   is incorrect. The right answer is
+[54] HONEYPOT SUBMIT AGAIN *   Jump to Submit 
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT    *   Success! Email sent on
+[62] COPY SENT TEXT        *   Copy sent
+[63] UNKNOWN BROWSER TEXT  *   Unknown user agent
+[64] GREETING/SALUTATION   *   Hello
+[65] MAIL INTRO TEXT       *   An email has been sent from
+[66] MAIL SUB TEXT         *   Here's the message
+[67] CONTACT DETAILS TEXT  *   This additional information was provided
+[68] DATA COLLECTED TEXT   *   Data Collected
+[69] CC EMAIL COPY TEXT    *   Email Copy
+[70] MAIL CC INTRO TEXT    *   This is a copy of an email sent to
+[71] NO ISP FOUND/UNKNOWN  *   ISP data not available
+[72] NO REFERRER DATA      *   Referrer data not available
+[73] NO IP DATA FOUND      *   IP address data not available
+[74] NO TIME STAMP FOUND   *   Time stamp data not available
+[75] * 

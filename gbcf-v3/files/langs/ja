@@ -1,0 +1,76 @@
+[00] GBCF-V3 JAPANESE (JA) FILE - DO NOT ALTER FILE FORMAT - BY YOICHI KINOSHITA HTTP://WWW.AD-MINISTER.NET/  
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT       *   氏名
+[03] EMAIL LABEL TEXT      *   メールアドレス
+[04] ORG LABEL TEXT        *   会社
+[05] PHONE LABEL TEXT      *   電話番号
+[06] WEBSITE LABEL TEXT    *   URL
+[07] ADDRESS 1 LABEL TEXT  *   住所
+[08] ADDRESS 2 LABEL TEXT  *   住所（続き）
+[09] CITY LABEL TEXT       *   市区町村
+[10] STATE LABEL TEXT      *   都道府県
+[11] POSTCODE LABEL TEXT   *   郵便番号
+[12] COUNTRY LABEL TEXT    *   国
+[13] SUBJECT LABEL TEXT    *   タイトル
+[14] OPTMENU LABEL TEXT    *   参照先
+[15] MESSAGE LABEL TEXT    *   お問い合わせ内容
+[16] HONEYPOT LABEL TEXT   *   このスパム防止用の罠には入力しないでください。
+[17] CC COPY LABEL TEXT    *   送信内容のコピーをメールで受け取りたい場合にはチェックしてください。
+[18] ANTI-SPAM EXPLANATION *   スパムロボットではないことの証明です。
+[19] MAIN LABEL TEXT       *   下記のフォームにご記入の上、送信ください。
+[20] SUBMIT BUTTON TEXT    *   送信
+[21] REQUIRED SYMBOL       *   &#042;
+[22] REQUIRED TEXT         *   必須事項であることを示します。
+[23] PRIVACY LINK TEXT     *   プライベートポリシー
+[24] TIME STAMP TEXT       *   タイムスタンプ
+[25] SELECT DEFAULT TEXT   *   下記から一つお選びください。
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT      *   お問い合わせフォーム
+[29] REQ 1 LEGEND TEXT     *   必須
+[30] REQ 2 LEGEND TEXT     *   必須
+[31] OPTIONAL LEGEND TEXT  *   オプション
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED      *   阻止しました
+[36] AUTHOR CREDIT TEXT    *   スクリプト：
+[37] RESET PAGE LINK TEXT  *   ページのリセット
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS     *   エラー！必要事項に記入もれがあります。
+[40] MALFORMED EMAIL       *   エラー！メールアドレスに不備があります。 
+[41] HONEYPOT NOT EMPTY    *   エラー！非表示項目に入力があります。スパムロボットではないのならもう一度やり直してください。
+[42] ID MISMATCH ERROR     *   エラー！リモート操作を示唆するようなフォームIDの不統一がありました。
+[43] INVALID MENU ERROR    *   エラー！不適切な選択
+[44] BLACKLISTED IP ERROR  *   エラー！管理人により、このIPアドレスはブラックリストに登録されています。
+[45] FORM LOCKDOWN ERROR   *   注意！現在お問い合わせフォームはロックされています。時間をおいてからもう一度お試しください。
+[46] INPUT LENGTH ERROR    *   エラー！最大入力幅を超えました...さようならスパムロボット。
+[47] SEND VALUE MISSING    *   エラー！送信データが欠如または破損しています。
+[48] INPUT EXPLOIT ERROR   *   エラー！禁止された内容があります。以下を直してください： 
+[49] PROHIBITED LIST       *   使用禁止
+[50] HEADER INJECTION      *   エラー！メールのヘッダーに不法なデータの入力を試みました。
+[51] CC HEADER INJECTION   *   エラー！コピーのヘッダーに不法なデータの入力を試みました。
+[52] SPAM Q&A ERROR PART 1 *   エラー！次の質問に対する答え
+[53] SPAM Q&A ERROR PART 2 *   が間違っています。正解は
+[54] HONEYPOT SUBMIT AGAIN *   送信にはジャンプ 
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT    *   送信完了。送信先：
+[62] COPY SENT TEXT        *   コピー送信完了
+[63] UNKNOWN BROWSER TEXT  *   不明なユーザーエージェント
+[64] GREETING/SALUTATION   *   こんにちわ
+[65] MAIL INTRO TEXT       *   メールを受信しました。送信元：
+[66] MAIL SUB TEXT         *   内容：
+[67] CONTACT DETAILS TEXT  *   付加情報：
+[68] DATA COLLECTED TEXT   *   データ：
+[69] CC EMAIL COPY TEXT    *   お問い合わせ内容のコピー
+[70] MAIL CC INTRO TEXT    *   送信いただいたお問い合わせのコピーです。送信先：
+[71] NO ISP FOUND/UNKNOWN  *   ISPデータはありません
+[72] NO REFERRER DATA      *   参照元データはありまん
+[73] NO IP DATA FOUND      *   IPアドレスのデータはありません
+[74] NO TIME STAMP FOUND   *   タイムスタンプのデータはありません
+[75] * 

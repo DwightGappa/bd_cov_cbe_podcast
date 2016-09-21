@@ -1,0 +1,76 @@
+[00] GBCF-V3 ROMANIAN (RO) FILE - DO NOT ALTER FILE FORMAT - BY RADU MICU HTTP://WWW.ZAMOLXE.INFO
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT       *   Nume
+[03] EMAIL LABEL TEXT      *   Email
+[04] ORG LABEL TEXT        *   Organizatie
+[05] PHONE LABEL TEXT      *   Telefon
+[06] WEBSITE LABEL TEXT    *   Website
+[07] ADDRESS 1 LABEL TEXT  *   Adresa
+[08] ADDRESS 2 LABEL TEXT  *   Adresa (continuare)
+[09] CITY LABEL TEXT       *   Oras/sat
+[10] STATE LABEL TEXT      *   Judet/provincie
+[11] POSTCODE LABEL TEXT   *   OP/cod postal
+[12] COUNTRY LABEL TEXT    *   Tara
+[13] SUBJECT LABEL TEXT    *   Subiect
+[14] OPTMENU LABEL TEXT    *   Referinta
+[15] MESSAGE LABEL TEXT    *   Mesaj
+[16] HONEYPOT LABEL TEXT   *   Lasa aceasta capcana anti-spam goala
+[17] CC COPY LABEL TEXT    *   Verifica trimitere printr-o copie email
+[18] ANTI-SPAM EXPLANATION *   Raspunsul tau dovedeste faptul ca esti o persoana
+[19] MAIN LABEL TEXT       *   Introdu informatiile tale in acest formular pentru a ne trimite un mail.
+[20] SUBMIT BUTTON TEXT    *   Trimite
+[21] REQUIRED SYMBOL       *   &#042;
+[22] REQUIRED TEXT         *   Denota un camp obligatoriu.
+[23] PRIVACY LINK TEXT     *   Politica de securitate
+[24] TIME STAMP TEXT       *   Ora trimitere
+[25] SELECT DEFAULT TEXT   *   Selecteaza o optiune
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT      *   Formular de contact
+[29] REQ 1 LEGEND TEXT     *   Obligatoriu
+[30] REQ 2 LEGEND TEXT     *   Obligatoriu
+[31] OPTIONAL LEGEND TEXT  *   Optional
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED      *   Blocat
+[36] AUTHOR CREDIT TEXT    *   Script by
+[37] RESET PAGE LINK TEXT  *   Reseteaza Pagina
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS     *   Eroare! Campurile obligatorii lipsesc
+[40] MALFORMED EMAIL       *   Eroare! Adresa de email nu este corecta 
+[41] HONEYPOT NOT EMPTY    *   Eroare! Un camp ascuns era setat. Daca esti om, mai incearca
+[42] ID MISMATCH ERROR     *   Eroare! Un id din formular nu este corect dupa posting
+[43] INVALID MENU ERROR    *   Eroare! Ai selectat din meniu o optiune invalida/ilegala in
+[44] BLACKLISTED IP ERROR  *   Eroare! Administratorul a pus pe lista neagra adresa ta de IP din cauza abuzului
+[45] FORM LOCKDOWN ERROR   *   Info! Formularul nostru de contact este inchis pentru moment. Va rugam reveniti!
+[46] INPUT LENGTH ERROR    *   Eroare! Ai depasit limita unui input... la revedere robotule
+[47] SEND VALUE MISSING    *   Eroare! Datele cu cu valorile trimise au fost corupte sau lipsesc
+[48] INPUT EXPLOIT ERROR   *   Eroare! S-a gasit continut nepermis. Te rog editeaza: 
+[49] PROHIBITED LIST       *   Nu folosi
+[50] HEADER INJECTION      *   Eroare! Ai incercat sa introduci date nepermise in header-ul de email
+[51] CC HEADER INJECTION   *   Eroare! Ai incercat sa introduci date nepermise in header-ul copie email
+[52] SPAM Q&A ERROR PART 1 *   Eroare! Raspunsul tau la
+[53] SPAM Q&A ERROR PART 2 *   este incorect. Raspunsul corect este
+[54] HONEYPOT SUBMIT AGAIN *   Sari la Trimite 
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT    *   Succes! Email trimis la
+[62] COPY SENT TEXT        *   Copie trimisa
+[63] UNKNOWN BROWSER TEXT  *   User agent necunoscut
+[64] GREETING/SALUTATION   *   Salut
+[65] MAIL INTRO TEXT       *   Un mail a fost trimis de la
+[66] MAIL SUB TEXT         *   Acesta este mesajul
+[67] CONTACT DETAILS TEXT  *   Acestea sunt informatiile aditionale care au fost completate
+[68] DATA COLLECTED TEXT   *   Date colectate
+[69] CC EMAIL COPY TEXT    *   Copie Email
+[70] MAIL CC INTRO TEXT    *   Aceasta este o copie a email-ului trimis la
+[71] NO ISP FOUND/UNKNOWN  *   Datele ISP nu sunt disponibile
+[72] NO REFERRER DATA      *   Datele de referinta nu sunt disponibile
+[73] NO IP DATA FOUND      *   Adresa IP nu este disponibila
+[74] NO TIME STAMP FOUND   *   Ora trimiterii nu este disponibila
+[75] * 

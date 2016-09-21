@@ -1,0 +1,76 @@
+[00] GBCF-V3 MALAY (MY) FILE - DO NOT ALTER FILE FORMAT - BY WAN ASSAD HTTP://FITZHEIM.COM
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT       *   Nama
+[03] EMAIL LABEL TEXT      *   Emel
+[04] ORG LABEL TEXT        *   Syarikat
+[05] PHONE LABEL TEXT      *   Telefon
+[06] WEBSITE LABEL TEXT    *   Laman Web
+[07] ADDRESS 1 LABEL TEXT  *   Alamat
+[08] ADDRESS 2 LABEL TEXT  *   Alamat (sambungan)
+[09] CITY LABEL TEXT       *   Bandar
+[10] STATE LABEL TEXT      *   Negeri
+[11] POSTCODE LABEL TEXT   *   Poskod
+[12] COUNTRY LABEL TEXT    *   Negara
+[13] SUBJECT LABEL TEXT    *   Subjek
+[14] OPTMENU LABEL TEXT    *   Dirujuk oleh
+[15] MESSAGE LABEL TEXT    *   Mesej
+[16] HONEYPOT LABEL TEXT   *   Tinggalkan kosong di ruangan anti-spam ini
+[17] CC COPY LABEL TEXT    *   Hantarkan satu salinan
+[18] ANTI-SPAM EXPLANATION *   Jawapan anda mensahihkan anda adalah manusia
+[19] MAIN LABEL TEXT       *   Masukkan maklumat anda di ruangan ini untuk hantar emel kepada kami.
+[20] SUBMIT BUTTON TEXT    *   Hantar
+[21] REQUIRED SYMBOL       *   &#042;
+[22] REQUIRED TEXT         *   Ruangan ini perlu diisi.
+[23] PRIVACY LINK TEXT     *   Polisi Peribadi
+[24] TIME STAMP TEXT       *   Cetakan masa
+[25] SELECT DEFAULT TEXT   *   Sila pilih satu
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT      *   Borang Hubungi
+[29] REQ 1 LEGEND TEXT     *   Perlu
+[30] REQ 2 LEGEND TEXT     *   Perlu
+[31] OPTIONAL LEGEND TEXT  *   Pilihan
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED      *   Disekat
+[36] AUTHOR CREDIT TEXT    *   Skrip oleh
+[37] RESET PAGE LINK TEXT  *   Kosongkan
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS     *   Kesilapan! Tertinggal ruangan yang diperlukan
+[40] MALFORMED EMAIL       *   Kesilapan! Alamat emel anda tidak berfungsi
+[41] HONEYPOT NOT EMPTY    *   Kesilapan! Ruangan input kosong ini mempunyai data. Jika anda adalah manusia, sila cuba sekali lagi
+[42] ID MISMATCH ERROR     *   Kesilapan! Terdapat ketidaksamaan bagi ruangan ID bagi hantaran automatik
+[43] INVALID MENU ERROR    *   Kesilapan! Anda telah memilih pilihan menu yang salah/tidak sah bagi
+[44] BLACKLISTED IP ERROR  *   Kesilapan! Pihak penyelia telah menyenarai-hitamkan alamat IP anda kerana penyalahgunaan
+[45] FORM LOCKDOWN ERROR   *   Notis! Borang Hubungi ditutup buat sementara waktu. Sila kembali dalam masa terdekat!
+[46] INPUT LENGTH ERROR    *   Kesilapan! Anda telah melepasi had input maksimum... ini bermaksud anda adalah robot
+[47] SEND VALUE MISSING    *   Kesilapan! Data yang dihantar korup atau kehilangan
+[48] INPUT EXPLOIT ERROR   *   Kesilapan! Kandungan terlarang dikesan. Sila ubah:
+[49] PROHIBITED LIST       *   Jangan gunakan
+[50] HEADER INJECTION      *   Kesilapan! Anda telah mencuba untuk memasukkan data yang tidak sah ke bahagian kepala mel
+[51] CC HEADER INJECTION   *   Kesilapan! Anda telah mencuba untuk memasukkan data yang tidak sah ke bahagian salinan mel
+[52] SPAM Q&A ERROR PART 1 *   Kesilapan! Jawapan anda kepada
+[53] SPAM Q&A ERROR PART 2 *   tidak tepat. Jawapan yang tepat adalah
+[54] HONEYPOT SUBMIT AGAIN *   Terus ke Hantar
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT    *   Berjaya! Emel telah dihantar pada
+[62] COPY SENT TEXT        *   Salinan telah dihantar
+[63] UNKNOWN BROWSER TEXT  *   Agen pengguna tidak diketahui
+[64] GREETING/SALUTATION   *   Apa khabar
+[65] MAIL INTRO TEXT       *   Satu emel telah dihantar daripada
+[66] MAIL SUB TEXT         *   Berikut adalah mesejnya
+[67] CONTACT DETAILS TEXT  *   Maklumat tambahan ini disediakan oleh
+[68] DATA COLLECTED TEXT   *   Data Dikumpul
+[69] CC EMAIL COPY TEXT    *   Salinan emel
+[70] MAIL CC INTRO TEXT    *   Ini adalah salinan emel yang dihantar kepada
+[71] NO ISP FOUND/UNKNOWN  *   Data ISP tidak ditemui
+[72] NO REFERRER DATA      *   Data perujuk tidak wujud
+[73] NO IP DATA FOUND      *   Alamat IP tidak wujud
+[74] NO TIME STAMP FOUND   *   Cetakan masa tidak wujud
+[75] *

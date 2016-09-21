@@ -1,0 +1,77 @@
+[00] GBCF-V3 GALICIAN (GALEGO) (GL) FILE - DO NOT ALTER FILE FORMAT - BY Jesus Quintana HTTP://WWW.MAISMEDIA.COM 
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT        * Nome
+[03] EMAIL LABEL TEXT       * E-Mail
+[04] ORG LABEL TEXT         * Empresa
+[05] PHONE LABEL TEXT       * Teléfono
+[06] WEBSITE LABEL TEXT     * Sitio Web
+[07] ADDRESS 1 LABEL TEXT   * Dirección
+[08] ADDRESS 2 LABEL TEXT   * Dirección (Continua)
+[09] CITY LABEL TEXT        * Cidade
+[10] STATE LABEL TEXT       * Estado/Provincia
+[11] POSTCODE LABEL TEXT    * Zip/Código Postal
+[12] COUNTRY LABEL TEXT     * País
+[13] SUBJECT LABEL TEXT     * Asunto
+[14] OPTMENU LABEL TEXT     * Referido por
+[15] MESSAGE LABEL TEXT     * Mensaxe
+[16] HONEYPOT LABEL TEXT    * Deixar trampa antispam vacía
+[17] CC COPY LABEL TEXT     * Enviar copia o meu e-mail
+[18] ANTI-SPAM EXPLANATION  * A resposta proba que eres un human
+[19] MAIN LABEL TEXT        * Introduza os seus datos para contactar connosco.
+[20] SUBMIT BUTTON TEXT     * Enviar
+[21] REQUIRED SYMBOL        * &#042;
+[22] REQUIRED TEXT          * Campo Requerido
+[23] PRIVACY LINK TEXT      * Política de Privacidade
+[24] TIME STAMP TEXT        * Data e Hora
+[25] SELECT DEFAULT TEXT    * Seleccionar un
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT       * Formulario de Contacto
+[29] REQ 1 LEGEND TEXT      * Requerido
+[30] REQ 2 LEGEND TEXT      * Requerido
+[31] OPTIONAL LEGEND TEXT   * Opcioal
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED       * Bloqueado
+[36] AUTHOR CREDIT TEXT     * Script creado por
+[37] RESET PAGE LINK TEXT   * Reiniciar Páxina
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS      * Error! Campo Requerido non Completado
+[40] MALFORMED EMAIL        * Error! A dirección de Correo Electrónico está mal escrita
+[41] HONEYPOT NOT EMPTY     * Error! Un campo vacío contén información.
+[42] ID MISMATCH ERROR      * Error! Hai un erro no formulario que indica un envío remoto.
+[43] INVALID MENU ERROR     * Error! Cometéuse unha selección inválida/incorrecta de menú en
+[44] BLACKLISTED IP ERROR   * Error! O administrador puxo a súa IP na lista negra debido ó abuso
+[45] FORM LOCKDOWN ERROR    * Aviso! O noso formulario de contacto encóntrase pechado por ahora. Visítenos novamente!
+[46] INPUT LENGTH ERROR     * Error! Vostede excedeu o límite permitido de ingreso... deicalogo
+[47] SEND VALUE MISSING     * Error! Os datos enviados están incompletos.
+[48] INPUT EXPLOIT ERROR    * Error! Contido prohibido encontrado. Por favor, edite novamente
+[49] PROHIBITED LIST        * Non usar
+[50] HEADER INJECTION       * Error! Vostede tratou de inserir datos ilegais no encabezado do correo
+[51] CC HEADER INJECTION    * Error! Vostede intentou inserir datos ilegais no encabezado da copia do correo
+[52] SPAM Q&A ERROR PART 1  * Error! A resposta a
+[53] SPAM Q&A ERROR PART 2  * é incorrecta. A resposta correcta é
+[54] HONEYPOT SUBMIT AGAIN  * Reintroduci-la información
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT     * Enviado!. Grazas, en breve poñerémonos en contacto con Vd. Correo enviado o
+[62] COPY SENT TEXT         * Copia enviada
+[63] UNKNOWN BROWSER TEXT   * Usuario descoñecido
+[64] GREETING/SALUTATION    * Hola
+[65] MAIL INTRO TEXT        * Recibida unha mensaxe dende
+[66] MAIL SUB TEXT          * Mensaxe
+[67] CONTACT DETAILS TEXT   * Información adicioal
+[68] DATA COLLECTED TEXT    * Outros datos
+[69] CC EMAIL COPY TEXT     * Copia da súa mensaxe
+[70] MAIL CC INTRO TEXT     * Isto é unha copia dun correo enviado a
+[71] NO ISP FOUND/UNKNOWN   * Información do ISP non dispoñible
+[72] NO REFERRER DATA       * Información de quen refire non dispoñible
+[73] NO IP DATA FOUND       * Dirección IP non dispoñible
+[74] NO TIME STAMP FOUND    * Hora/data non dispoñible
+[75] *
+

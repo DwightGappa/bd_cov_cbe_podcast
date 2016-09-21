@@ -1,0 +1,76 @@
+[00] GBCF-V3 ITALIAN (IT) FILE - DO NOT ALTER FILE FORMAT - BY PIERLUIGI MONTINARO HTTP://WWW.STILLE.IT
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT       *   Nome
+[03] EMAIL LABEL TEXT      *   Email
+[04] ORG LABEL TEXT        *   Societa'
+[05] PHONE LABEL TEXT      *   Telefono
+[06] WEBSITE LABEL TEXT    *   Sito Web
+[07] ADDRESS 1 LABEL TEXT  *   Indirizzo
+[08] ADDRESS 2 LABEL TEXT  *   Indirizzo (continua)
+[09] CITY LABEL TEXT       *   Citta'
+[10] STATE LABEL TEXT      *   Provincia
+[11] POSTCODE LABEL TEXT   *   CAP
+[12] COUNTRY LABEL TEXT    *   Nazione
+[13] SUBJECT LABEL TEXT    *   Oggetto
+[14] OPTMENU LABEL TEXT    *   Ti siamo stati segnalati da
+[15] MESSAGE LABEL TEXT    *   Messaggio
+[16] HONEYPOT LABEL TEXT   *   Lascia vuoto questo campo poiche' e' una trappola anti-spam
+[17] CC COPY LABEL TEXT    *   Spunta per ricevere l'email in copia
+[18] ANTI-SPAM EXPLANATION *   La risposta prova che a scrivere e' una persona reale
+[19] MAIN LABEL TEXT       *   Compila i dati di questo modulo per inviarci una email.
+[20] SUBMIT BUTTON TEXT    *   Invia
+[21] REQUIRED SYMBOL       *   &#042;
+[22] REQUIRED TEXT         *   Indica un campo obbligatorio.
+[23] PRIVACY LINK TEXT     *   Privacy
+[24] TIME STAMP TEXT       *   Data/Ora
+[25] SELECT DEFAULT TEXT   *   Scegli una voce
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT      *   Modulo Contatti
+[29] REQ 1 LEGEND TEXT     *   Obbligatorio
+[30] REQ 2 LEGEND TEXT     *   Obbligatorio
+[31] OPTIONAL LEGEND TEXT  *   Opzionale
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED      *   Bloccato
+[36] AUTHOR CREDIT TEXT    *   Script di
+[37] RESET PAGE LINK TEXT  *   Reimposta Pagina
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS     *   Errore! I seguenti campi obbligatori non sono valorizzati
+[40] MALFORMED EMAIL       *   Errore! Il tuo indirizzo email non e' corretto 
+[41] HONEYPOT NOT EMPTY    *   Errore! Un campo nascosto e' valorizzato. Se sei umano, prova ancora
+[42] ID MISMATCH ERROR     *   Errore! Non vi e' corrispondenza di ID del form. Potrebbe esserci stato un post remoto
+[43] INVALID MENU ERROR    *   Errore! Hai fatto una scelta di menu non valida/illegale
+[44] BLACKLISTED IP ERROR  *   Errore! L'amministratore ha messo in una lista nera il tuo indirizzo IP per abuso di questo form
+[45] FORM LOCKDOWN ERROR   *   Attenzione! Il nostro modulo contatti e' stato disattivato temporaneamente. Torna a trovarci a breve!
+[46] INPUT LENGTH ERROR    *   Errore! Hai superato il limite massimo per il campo... arrivederci 'bot
+[47] SEND VALUE MISSING    *   Errore! I dati inviati sono corrotti o mancanti
+[48] INPUT EXPLOIT ERROR   *   Errore! E' stato trovato del contenuto vietato. Per favore modifica: 
+[49] PROHIBITED LIST       *   Non Usare
+[50] HEADER INJECTION      *   Errore! Hai tentato di inserire dati illegali nell'intestazione dell'email
+[51] CC HEADER INJECTION   *   Errore! Hai tentato di inserire dati illegali nell'intestazione della copia
+[52] SPAM Q&A ERROR PART 1 *   Errore! La tua risposta alla domanda
+[53] SPAM Q&A ERROR PART 2 *   non e' corretta. La risposta corretta e'
+[54] HONEYPOT SUBMIT AGAIN *   Salta a Invia 
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT    *   Successo! L'email e' stata inviata il
+[62] COPY SENT TEXT        *   Copia inviata
+[63] UNKNOWN BROWSER TEXT  *   User agent sconosciuto
+[64] GREETING/SALUTATION   *   Ciao
+[65] MAIL INTRO TEXT       *   Ti e' stata inviata una email da 
+[66] MAIL SUB TEXT         *   Ecco il messaggio
+[67] CONTACT DETAILS TEXT  *   Sono state fornite le seguenti informazioni aggiuntive
+[68] DATA COLLECTED TEXT   *   Dati Raccolti
+[69] CC EMAIL COPY TEXT    *   Email in Copia
+[70] MAIL CC INTRO TEXT    *   Questa e' una copia dell'email inviata a
+[71] NO ISP FOUND/UNKNOWN  *   Dati ISP non disponibili
+[72] NO REFERRER DATA      *   Dati Referrer non disponibili
+[73] NO IP DATA FOUND      *   Indirizzo IP non disponibile
+[74] NO TIME STAMP FOUND   *   informazioni su Data/Ora non disponibili
+[75] * 

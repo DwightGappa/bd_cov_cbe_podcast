@@ -1,0 +1,76 @@
+﻿[00] GBCF-V3 HEBREW (HE) FILE - DO NOT ALTER FILE FORMAT - BY OREN FARHI HTTP://WWW.ORIZENS.COM
+[01]------------------------------------------------------------------------------------------------ 
+[02] NAME LABEL TEXT       *   שם 
+[03] EMAIL LABEL TEXT      *   אימייל 
+[04] ORG LABEL TEXT        *   ארגון 
+[05] PHONE LABEL TEXT      *   טלפון 
+[06] WEBSITE LABEL TEXT    *   אתר 
+[07] ADDRESS 1 LABEL TEXT  *   כתובת 
+[08] ADDRESS 2 LABEL TEXT  *   כתובת (המשך) 
+[09] CITY LABEL TEXT       *   עיר/עיירה 
+[10] STATE LABEL TEXT      *   מדינה/איזור 
+[11] POSTCODE LABEL TEXT   *   מיקוד 
+[12] COUNTRY LABEL TEXT    *   מדינה 
+[13] SUBJECT LABEL TEXT    *   נושא 
+[14] OPTMENU LABEL TEXT    *   הופנה על ידי 
+[15] MESSAGE LABEL TEXT    *   הודעה 
+[16] HONEYPOT LABEL TEXT   *   השאר את מלכודת האנטי-ספאם ריקה 
+[17] CC COPY LABEL TEXT    *   סמן לקבלת עותק למייל 
+[18] ANTI-SPAM EXPLANATION *   תשובתיכם מבטיחה שאתם לא רובוטים של אינטרנט 
+[19] MAIN LABEL TEXT       *   הכניסו את המידע לטופס זה כדי לשלוח לנו אימייל. 
+[20] SUBMIT BUTTON TEXT    *   שליחה 
+[21] REQUIRED SYMBOL       *   &#042; 
+[22] REQUIRED TEXT         *   מציין את השדות הנדרשים 
+[23] PRIVACY LINK TEXT     *   מדיניות פרטיות 
+[24] TIME STAMP TEXT       *   חותמת זמן 
+[25] SELECT DEFAULT TEXT   *   יש לבחור באופציה אחת
+[26] * 
+[27]------------------------------------------------------------------------------------------------- 
+[28] MAIN LEGEND TEXT      *   טופס צור קשר 
+[29] REQ 1 LEGEND TEXT     *   נדרש 
+[30] REQ 2 LEGEND TEXT     *   נדרש 
+[31] OPTIONAL LEGEND TEXT  *   לבחירה 
+[32] * 
+[33] * 
+[34]------------------------------------------------------------------------------------------------- 
+[35] SPAMBOTS STOPPED      *   נחסם 
+[36] AUTHOR CREDIT TEXT    *   סקריפט על ידי 
+[37] RESET PAGE LINK TEXT  *   עמודאיפוס 
+[38]------------------------------------------------------------------------------------------------- 
+[39] MISSED REQ FIELDS     *   שגיאה! השדות הנדרשים אינם מלאים  
+[40] MALFORMED EMAIL       *   שגיאה! כתובת האימייל שהוכנסה פגומה  
+[41] HONEYPOT NOT EMPTY    *   שגיאה! הוכנס מידע בשדה מוסתר. אם אתה אנושי, נסה שוב. 
+[42] ID MISMATCH ERROR     *   שגיאה! הייתה חוסר התאמה במזהה של הטופס שמצביע על שליחה מרחוק  
+[43] INVALID MENU ERROR    *   שגיאה! בחרתם בתפריט בחירה שגוי  
+[44] BLACKLISTED IP ERROR  *   שגיאה! מנהל האתר סימן את כתובת ה-IP שלכם כתוצאה משימוש לא נאה.  
+[45] FORM LOCKDOWN ERROR   *   שימו לב! טופס הצור קשר שלנו ננעל לעת עתה. חזרו אלינו בקרוב! 
+[46] INPUT LENGTH ERROR    *   שגיאה! עברתם את אורך הפלט המותר...ביי ביי רובוט 
+[47] SEND VALUE MISSING    *   שגיאה! ערך השליחה שנתקבל שגוי או חסר 
+[48] INPUT EXPLOIT ERROR   *   שגיאה! תוכן אסור נמצא. נא לערוך:  
+[49] PROHIBITED LIST       *   לא לשימוש 
+[50] HEADER INJECTION      *   שגיאה! נעשה ניסיון להכניס מידע לא חוקי לכותרת המייל.  
+[51] CC HEADER INJECTION   *   שגיאה! נעשה ניסיון להכניס מידע לא חוקי לעותק של כותרת המייל  
+[52] SPAM Q&A ERROR PART 1 *   שגיאה! התשובה שלך ל 
+[53] SPAM Q&A ERROR PART 2 *   אינה נכונה. התשובה הנכונה היא  
+[54] HONEYPOT SUBMIT AGAIN *   קפיצה לשליחה  
+[55] * 
+[56] * 
+[57] * 
+[58] * 
+[59] * 
+[60]------------------------------------------------------------------------------------------------- 
+[61] SUCCESS EMAIL SENT    *   המייל נשלח בהצלחה!  
+[62] COPY SENT TEXT        *   עותק נשלח  
+[63] UNKNOWN BROWSER TEXT  *   שולח לא מזוהה 
+[64] GREETING/SALUTATION   *   שלום 
+[65] MAIL INTRO TEXT       *   אימייל נשלח מ  
+[66] MAIL SUB TEXT         *   זוהי ההודעה  
+[67] CONTACT DETAILS TEXT  *   מידע נוסף שנשלח עם ההודעה 
+[68] DATA COLLECTED TEXT   *   מידע שנאסף 
+[69] CC EMAIL COPY TEXT    *   עותק המייל 
+[70] MAIL CC INTRO TEXT    *   זהו עותק שנשלח אל 
+[71] NO ISP FOUND/UNKNOWN  *   מידע על ספק שירותי האינטרנט לא זמין  
+[72] NO REFERRER DATA      *   מידע על המפנה אינו זמין  
+[73] NO IP DATA FOUND      *   כתובת IP אינה זמינה  
+[74] NO TIME STAMP FOUND   *   חותמת זמן אינה זמינה 
+[75] * 

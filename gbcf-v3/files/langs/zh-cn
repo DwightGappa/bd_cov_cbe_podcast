@@ -1,0 +1,76 @@
+[00] GBCF-V3 SIMPLIFIED CHINESE (ZH-CN) FILE - BY JESSE LEE HTTP://WWW.ZZVO.COM
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT       *   名字
+[03] EMAIL LABEL TEXT      *   Email
+[04] ORG LABEL TEXT        *   公司
+[05] PHONE LABEL TEXT      *   电话
+[06] WEBSITE LABEL TEXT    *   网站
+[07] ADDRESS 1 LABEL TEXT  *   地址
+[08] ADDRESS 2 LABEL TEXT  *   地址 (详细)
+[09] CITY LABEL TEXT       *   城市
+[10] STATE LABEL TEXT      *   省区
+[11] POSTCODE LABEL TEXT   *   邮编
+[12] COUNTRY LABEL TEXT    *   国家
+[13] SUBJECT LABEL TEXT    *   标题
+[14] OPTMENU LABEL TEXT    *   从哪里知道我们
+[15] MESSAGE LABEL TEXT    *   内容
+[16] HONEYPOT LABEL TEXT   *   反垃圾区域留空
+[17] CC COPY LABEL TEXT    *   发送邮件副本给自己
+[18] ANTI-SPAM EXPLANATION *   回答安全问题以证明你是人工在发送（不是机器人）
+[19] MAIN LABEL TEXT       *   填写下面的表格给我们发送邮件。
+[20] SUBMIT BUTTON TEXT    *   发送邮件
+[21] REQUIRED SYMBOL       *   &#042;
+[22] REQUIRED TEXT         *   表示必填区域。
+[23] PRIVACY LINK TEXT     *   隐私政策
+[24] TIME STAMP TEXT       *   时间
+[25] SELECT DEFAULT TEXT   *   选择一个问题
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT      *   联系表格
+[29] REQ 1 LEGEND TEXT     *   必填
+[30] REQ 2 LEGEND TEXT     *   必填
+[31] OPTIONAL LEGEND TEXT  *   选填
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED      *   垃圾防范已阻止
+[36] AUTHOR CREDIT TEXT    *   代码开发
+[37] RESET PAGE LINK TEXT  *   重置页面
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS     *   错误！必填项缺少
+[40] MALFORMED EMAIL       *   错误！你的Email地址规范
+[41] HONEYPOT NOT EMPTY    *   错误！一个隐藏的空白输入区有资料，如果你是人工，请再试。
+[42] ID MISMATCH ERROR     *   错误！跨站提交有个表格 ID 不匹配！
+[43] INVALID MENU ERROR    *   错误！你选择了一个错误或无效菜单
+[44] BLACKLISTED IP ERROR  *   错误！由于滥用，管理员已经阻止了你的 IP 地址。
+[45] FORM LOCKDOWN ERROR   *   注意！我们联系表格暂时锁定停用，请稍后回来再试。
+[46] INPUT LENGTH ERROR    *   错误！你超出了最大输入长度限制... 再见机器人。
+[47] SEND VALUE MISSING    *   错误！提交的数据出错或缺失。
+[48] INPUT EXPLOIT ERROR   *   错误！发现禁止的内容，请编辑：
+[49] PROHIBITED LIST       *   不要使用
+[50] HEADER INJECTION      *   错误！你试图在邮件头部分加入非法数据。
+[51] CC HEADER INJECTION   *   错误！你试图在邮件副本头部部分加入非法数据。
+[52] SPAM Q&A ERROR PART 1 *   错误！你的回答
+[53] SPAM Q&A ERROR PART 2 *   不正确。正确答案是
+[54] HONEYPOT SUBMIT AGAIN *   跳转到发送 
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT    *   成功！邮件已经发出。
+[62] COPY SENT TEXT        *   副本已发出
+[63] UNKNOWN BROWSER TEXT  *   用户浏览器代理值(User Agent)未知
+[64] GREETING/SALUTATION   *   你好
+[65] MAIL INTRO TEXT       *   有一封邮件来自
+[66] MAIL SUB TEXT         *   这里是内容
+[67] CONTACT DETAILS TEXT  *   联系详情
+[68] DATA COLLECTED TEXT   *   数据收集
+[69] CC EMAIL COPY TEXT    *   邮件副本
+[70] MAIL CC INTRO TEXT    *   本邮件副本是发送给
+[71] NO ISP FOUND/UNKNOWN  *   ISP 数据不可用
+[72] NO REFERRER DATA      *   来源数据不可用
+[73] NO IP DATA FOUND      *   IP 地址数据不可用
+[74] NO TIME STAMP FOUND   *   时间不可用
+[75] *  

@@ -1,0 +1,76 @@
+[00] GBCF-V3 GERMAN (DE) FILE - DO NOT ALTER FILE FORMAT - BY CORNELIA KRAUS HTTP://WWW.MUSICAL-MOVES.COM
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT       *   Name
+[03] EMAIL LABEL TEXT      *   Email-Adresse
+[04] ORG LABEL TEXT        *   Organisation
+[05] PHONE LABEL TEXT      *   Telefon
+[06] WEBSITE LABEL TEXT    *   Webseite
+[07] ADDRESS 1 LABEL TEXT  *   Adresse
+[08] ADDRESS 2 LABEL TEXT  *   Straße (Hausnummer)
+[09] CITY LABEL TEXT       *   Stadt
+[10] STATE LABEL TEXT      *   Land/Bundesland
+[11] POSTCODE LABEL TEXT   *   Postleitzahl
+[12] COUNTRY LABEL TEXT    *   Land
+[13] SUBJECT LABEL TEXT    *   Betreff
+[14] OPTMENU LABEL TEXT    *   Referred by
+[15] MESSAGE LABEL TEXT    *   Nachricht
+[16] HONEYPOT LABEL TEXT   *   Leave this anti-spam trap empty
+[17] CC COPY LABEL TEXT    *   Kopie senden an: bitte ankreuzen!
+[18] ANTI-SPAM EXPLANATION *   Diese Antwort bestätigt, dass sie eine Person sind
+[19] MAIN LABEL TEXT       *   Bitte nutzen Sie dieses Formular, um uns eine Nachricht zu senden.
+[20] SUBMIT BUTTON TEXT    *   Senden
+[21] REQUIRED SYMBOL       *   &#042;
+[22] REQUIRED TEXT         *   kennzeichnet eine erforderliche Eingabe.
+[23] PRIVACY LINK TEXT     *   Datenschutzrichtlinien 
+[24] TIME STAMP TEXT       *   Zeitstempel
+[25] SELECT DEFAULT TEXT   *   bitte auswählen
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT      *   Kontaktformular
+[29] REQ 1 LEGEND TEXT     *   erforderlich
+[30] REQ 2 LEGEND TEXT     *   erforderlich
+[31] OPTIONAL LEGEND TEXT  *   optional
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED      *   Blockiert
+[36] AUTHOR CREDIT TEXT    *   Entwickelt von 
+[37] RESET PAGE LINK TEXT  *   Seite zurücksetzen
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS     *   Fehler! Erforderliche Eingabe fehlt.
+[40] MALFORMED EMAIL       *   Fehler! Ihre Email-Adresse ist fehlerhaft
+[41] HONEYPOT NOT EMPTY    *   Fehler! A hidden empty input had data. If you're human, try again
+[42] ID MISMATCH ERROR     *   Fehler! There was a form ID mis-match indicative of remote posting
+[43] INVALID MENU ERROR    *   Fehler! Ungültige Auswahl!
+[44] BLACKLISTED IP ERROR  *   Fehler! Der Admin hat Ihre IP-Adresse der Liste der unerwünschten Absender hinzugefügt!
+[45] FORM LOCKDOWN ERROR   *   Hinweis! Unser Kontaktformular ist zur Zeit nicht verfügbar. Bitte versuchen Sie es zu einem späteren Zeitpunkt!
+[46] INPUT LENGTH ERROR    *   Fehler! Ihre Eingabe überschreitet die maximale Eingabelänge.
+[47] SEND VALUE MISSING    *   Fehler! The send value data submitted was corrupted or missing
+[48] INPUT EXPLOIT ERROR   *   Fehler! Unzulässiger Inhalt. Bitte korrigieren: 
+[49] PROHIBITED LIST       *   No Use
+[50] HEADER INJECTION      *   Fehler! Sie haben versucht illegale Daten in den Header der Mail einzufügen!
+[51] CC HEADER INJECTION   *   Fehler! Sie haben versucht illegale Daten in den Header der Kopie einzufügen!
+[52] SPAM Q&A ERROR PART 1 *   Fehler! Ihre Antwort
+[53] SPAM Q&A ERROR PART 2 *   ist fehlerhaft. Die richtige Antwort ist
+[54] HONEYPOT SUBMIT AGAIN *   Folgen Sie dem Link um wiederholt zu senden
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT    *   Ihre Email wurde erfolgreich gesendet!
+[62] COPY SENT TEXT        *   Kopie gesendet
+[63] UNKNOWN BROWSER TEXT  *   Unbekannter user agent
+[64] GREETING/SALUTATION   *   Hallo
+[65] MAIL INTRO TEXT       *   Diese Email wurde gesendet von
+[66] MAIL SUB TEXT         *   Ihre Nachricht
+[67] CONTACT DETAILS TEXT  *   Diese zusätzliche Information wurde bereitgestellt
+[68] DATA COLLECTED TEXT   *   Data Collected
+[69] CC EMAIL COPY TEXT    *   Email Kopie an
+[70] MAIL CC INTRO TEXT    *   Dies ist die Kopie einer Email, gesendet an 
+[71] NO ISP FOUND/UNKNOWN  *   Internet Service provider nicht vorhanden
+[72] NO REFERRER DATA      *   Referrer data
+[73] NO IP DATA FOUND      *   IP-Adresse nicht vorhanden
+[74] NO TIME STAMP FOUND   *   Keine Zeitangabe vorhanden
+[75] *

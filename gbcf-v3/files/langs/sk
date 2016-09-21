@@ -1,0 +1,76 @@
+[00] GBCF-V3 SLOVAK (SK) FILE - DO NOT ALTER FILE FORMAT - BY MICHAL MIKSIK HTTP://WWW.MIKSIKANDMIKSIK.COM  
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT       *   Vaše meno
+[03] EMAIL LABEL TEXT      *   Email
+[04] ORG LABEL TEXT        *   Organizácia
+[05] PHONE LABEL TEXT      *   Telefón
+[06] WEBSITE LABEL TEXT    *   Webová stránka
+[07] ADDRESS 1 LABEL TEXT  *   Ulica
+[08] ADDRESS 2 LABEL TEXT  *   Ulica (pokračovanie)
+[09] CITY LABEL TEXT       *   Mesto
+[10] STATE LABEL TEXT      *   
+[11] POSTCODE LABEL TEXT   *   PSČ
+[12] COUNTRY LABEL TEXT    *   Štát
+[13] SUBJECT LABEL TEXT    *   Predmet
+[14] OPTMENU LABEL TEXT    *   Dozvedeli ste sa o nás
+[15] MESSAGE LABEL TEXT    *   Správa
+[16] HONEYPOT LABEL TEXT   *   Protispamová pasca - nevypĺňajte
+[17] CC COPY LABEL TEXT    *   Prajem si kópiu správy
+[18] ANTI-SPAM EXPLANATION *   Vaša odpoveď nám potvrdí že ste človek
+[19] MAIN LABEL TEXT       *   Vyplňte pre zaslanie emailu.
+[20] SUBMIT BUTTON TEXT    *   Odoslať
+[21] REQUIRED SYMBOL       *   &#042;
+[22] REQUIRED TEXT         *   Povinné údaje.
+[23] PRIVACY LINK TEXT     *   Súkromie používateľa
+[24] TIME STAMP TEXT       *   Časová pečiatka
+[25] SELECT DEFAULT TEXT   *   Zvoľte jednu možnosť
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT      *   Kontaktný formulár
+[29] REQ 1 LEGEND TEXT     *   Povinné údaje
+[30] REQ 2 LEGEND TEXT     *   Povinné údaje
+[31] OPTIONAL LEGEND TEXT  *   Nepovinné údaje 
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED      *   Zablokované
+[36] AUTHOR CREDIT TEXT    *   Autor skriptu
+[37] RESET PAGE LINK TEXT  *   Vynulovať stránku
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS     *   Chyba! Chýbajúce povinné údaje
+[40] MALFORMED EMAIL       *   Chyba! Vaša emailová adresa je nesprávna 
+[41] HONEYPOT NOT EMPTY    *   Chyba! Skryté prázdne políčko obsahovalo údaje. Ak ste človek, skúste znova
+[42] ID MISMATCH ERROR     *   Chyba! Nevhodný identifikátor formulára, svedčí o odoslaní na diaľku
+[43] INVALID MENU ERROR    *   Chyba! Zvolili ste si nesprávnu/zakázanú možnosť v
+[44] BLACKLISTED IP ERROR  *   Chyba! Administrátor zakázal vašu IP z dôvodu zneužitia
+[45] FORM LOCKDOWN ERROR   *   Oznam! Kontaktný formulár je momentálne zablokovaný. Skúste o chvíľu znova!
+[46] INPUT LENGTH ERROR    *   Chyba! Maximálny počet znakov prekročený... zbohom robot
+[47] SEND VALUE MISSING    *   Chyba! Odoslané údaje boli nesprávne alebo chýbali
+[48] INPUT EXPLOIT ERROR   *   Chyba! Boli nájdené zakázané údaje. Prosím opravte: 
+[49] PROHIBITED LIST       *   Nepoužívať
+[50] HEADER INJECTION      *   Chyba! Snažili ste sa vložiť nesprávne údaje do hlavičky emailu
+[51] CC HEADER INJECTION   *   Chyba! Snažili ste sa vložiť nesprávne údaje do hlavičky kópie
+[52] SPAM Q&A ERROR PART 1 *   Chyba! Vaša odpoveď na
+[53] SPAM Q&A ERROR PART 2 *   je nesprávna. Správna odpoveď je
+[54] HONEYPOT SUBMIT AGAIN *   Preskočiť na odoslanie 
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT    *   Váš email bol úspešne odoslaný
+[62] COPY SENT TEXT        *   Kópia odoslaná
+[63] UNKNOWN BROWSER TEXT  *   Neznámy prehliadač
+[64] GREETING/SALUTATION   *   Dobrý deň
+[65] MAIL INTRO TEXT       *   Email odoslal
+[66] MAIL SUB TEXT         *   Správa
+[67] CONTACT DETAILS TEXT  *   Táto doplňujúca informácia bola poskytnutá
+[68] DATA COLLECTED TEXT   *   Údaje zaznamenané
+[69] CC EMAIL COPY TEXT    *   Kópia emailu
+[70] MAIL CC INTRO TEXT    *   Toto je kópia emailu zaslaná na
+[71] NO ISP FOUND/UNKNOWN  *   ISP údaje nie sú k dispozícii
+[72] NO REFERRER DATA      *   Referenčné údaje nie sú k dispozícii
+[73] NO IP DATA FOUND      *   IP adresa nie je k dispozícii
+[74] NO TIME STAMP FOUND   *   Časová pečiatka nie je k dispozícii
+[75] * 

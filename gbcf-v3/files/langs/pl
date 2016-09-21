@@ -1,0 +1,76 @@
+[00] GBCF-V3 POLISH (PL) FILE - DO NOT ALTER FILE FORMAT - BY PIOTR BARSZCZEWSKI
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT       *   Imię
+[03] EMAIL LABEL TEXT      *   Email
+[04] ORG LABEL TEXT        *   Organizacja
+[05] PHONE LABEL TEXT      *   Telefon
+[06] WEBSITE LABEL TEXT    *   Strona WWW
+[07] ADDRESS 1 LABEL TEXT  *   Addres
+[08] ADDRESS 2 LABEL TEXT  *   Addres (ciąg dalszy)
+[09] CITY LABEL TEXT       *   Miasto
+[10] STATE LABEL TEXT      *   Województwo
+[11] POSTCODE LABEL TEXT   *   Kod pocztowy
+[12] COUNTRY LABEL TEXT    *   Kraj
+[13] SUBJECT LABEL TEXT    *   Temat
+[14] OPTMENU LABEL TEXT    *   Jak do nas trafiłeś?
+[15] MESSAGE LABEL TEXT    *   Wiadomość
+[16] HONEYPOT LABEL TEXT   *   Pozostaw pułapkę antyspamową pustą
+[17] CC COPY LABEL TEXT    *   Czy chcesz otrzymać kopię tej wiadomości?
+[18] ANTI-SPAM EXPLANATION *   To pytanie pozwala odróżnić człowieka od spam-bota
+[19] MAIN LABEL TEXT       *   Wprowadź dane do tego formularza i wyślij do nas email.
+[20] SUBMIT BUTTON TEXT    *   Wyślij
+[21] REQUIRED SYMBOL       *   &#042;
+[22] REQUIRED TEXT         *   Oznacza wymagane pola.
+[23] PRIVACY LINK TEXT     *   Polityka prywatności
+[24] TIME STAMP TEXT       *   Time stamp
+[25] SELECT DEFAULT TEXT   *   Wybierz
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT      *   Formularz kontaktowy
+[29] REQ 1 LEGEND TEXT     *   Wymagane
+[30] REQ 2 LEGEND TEXT     *   Wymagane
+[31] OPTIONAL LEGEND TEXT  *   Opcjonalne
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED      *   Zablokowany
+[36] AUTHOR CREDIT TEXT    *   Autor 
+[37] RESET PAGE LINK TEXT  *   Wyczyść stronę
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS     *   Błąd! Nie wszystkie wymagane pola zostały wypełnione
+[40] MALFORMED EMAIL       *   Błąd! Twój adres email jest niepoprawny 
+[41] HONEYPOT NOT EMPTY    *   Błąd! Ukryte pole miało wartość. Jeśli jesteś czlowiekiem spróbuj ponownie
+[42] ID MISMATCH ERROR     *   Błąd! Możliwe zdalne wysyłanie? Błędny identyfikator formularza 
+[43] INVALID MENU ERROR    *   Błąd! Wybrałeś niedozwoloną opcję
+[44] BLACKLISTED IP ERROR  *   Błąd! Administrator zablokował twoje IP
+[45] FORM LOCKDOWN ERROR   *   Uwaga! Nasz formularz kontaktowy jest chwilowo niedostępny. Zapraszamy ponownie wkrótce.
+[46] INPUT LENGTH ERROR    *   Błąd! Przekroczyłeś maksymalną długość danych
+[47] SEND VALUE MISSING    *   Błąd! Wysłane dane są niepoprawne albo zaginęły
+[48] INPUT EXPLOIT ERROR   *   Błąd! Niedozwolone treści znalezione. Proszę zmieinć: 
+[49] PROHIBITED LIST       *   Nie używać
+[50] HEADER INJECTION      *   Błąd! Próbowałeś wstawić niedozwolone dane do nagłówka maila
+[51] CC HEADER INJECTION   *   Błąd! Próbowałeś wstawić niedozwolone dane do nagłówka kopii maila
+[52] SPAM Q&A ERROR PART 1 *   Błąd! Twoja odpowiedź na 
+[53] SPAM Q&A ERROR PART 2 *   jest niepoprawna. Poprawna odpowiedź to
+[54] HONEYPOT SUBMIT AGAIN *   Przejdź do wysyłania 
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT    *   Gratulacje! Email został wysłany o 
+[62] COPY SENT TEXT        *   Kopia została wysłana
+[63] UNKNOWN BROWSER TEXT  *   Nieznana przeglądarka
+[64] GREETING/SALUTATION   *   Witaj
+[65] MAIL INTRO TEXT       *   Email został wysłany z 
+[66] MAIL SUB TEXT         *   Oto jego treść
+[67] CONTACT DETAILS TEXT  *   Dodatkowe informacje
+[68] DATA COLLECTED TEXT   *   Zebrane dane
+[69] CC EMAIL COPY TEXT    *   Kopia
+[70] MAIL CC INTRO TEXT    *   To jest kopia maila wysłanego do
+[71] NO ISP FOUND/UNKNOWN  *   ISP jest niedostępny
+[72] NO REFERRER DATA      *   Brak danych nt. źródła przekierowania
+[73] NO IP DATA FOUND      *   Adres IP jest niedostępny
+[74] NO TIME STAMP FOUND   *   Czas nadania jest niedostępny
+[75] * 

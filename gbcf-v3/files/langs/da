@@ -1,0 +1,76 @@
+[00] GBCF-V3 DANISH (DA) FILE - DO NOT ALTER FILE FORMAT - BY MARK BARNER HTTP://WWW.BARNER.DK  
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT       *   Navn
+[03] EMAIL LABEL TEXT      *   Email
+[04] ORG LABEL TEXT        *   Organisation
+[05] PHONE LABEL TEXT      *   Telefon
+[06] WEBSITE LABEL TEXT    *   Hjemmeside
+[07] ADDRESS 1 LABEL TEXT  *   Adresse
+[08] ADDRESS 2 LABEL TEXT  *   Adresse (fortsat)
+[09] CITY LABEL TEXT       *   By/Landsby
+[10] STATE LABEL TEXT      *   Provins
+[11] POSTCODE LABEL TEXT   *   Postnummer
+[12] COUNTRY LABEL TEXT    *   Land
+[13] SUBJECT LABEL TEXT    *   Emne
+[14] OPTMENU LABEL TEXT    *   Refereret af
+[15] MESSAGE LABEL TEXT    *   Besked
+[16] HONEYPOT LABEL TEXT   *   Lad denne anti-spam fælde være tom
+[17] CC COPY LABEL TEXT    *   Send mig en kopi
+[18] ANTI-SPAM EXPLANATION *   Dit svar beviser du er et menneske
+[19] MAIN LABEL TEXT       *   Skriv dine info i denne formular for at sende os en email.
+[20] SUBMIT BUTTON TEXT    *   Send
+[21] REQUIRED SYMBOL       *   &#042;
+[22] REQUIRED TEXT         *   Betegnelse kræves.
+[23] PRIVACY LINK TEXT     *   Betingelser
+[24] TIME STAMP TEXT       *   Tids stempel
+[25] SELECT DEFAULT TEXT   *   Vælg én
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT      *   Kontakt Formular
+[29] REQ 1 LEGEND TEXT     *   Kræves
+[30] REQ 2 LEGEND TEXT     *   Kræves
+[31] OPTIONAL LEGEND TEXT  *   Valgfrit
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED      *   Blokeret
+[36] AUTHOR CREDIT TEXT    *   Script forfatter
+[37] RESET PAGE LINK TEXT  *   Reset Siden
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS     *   Fejl! Du mangler at udfylde nogle informationer
+[40] MALFORMED EMAIL       *   Fejl! Der er fejl i indtastet email adresse
+[41] HONEYPOT NOT EMPTY    *   Fejl! En fejl opstod med fejldata. Hvis du er et menneske, så prøv igen
+[42] ID MISMATCH ERROR     *   Fejl! Der var en fejl i formularens ID hvilket indikerer remote posting
+[43] INVALID MENU ERROR    *   Fejl! Du har lavet en ugyldig/ulovlig menu-valg
+[44] BLACKLISTED IP ERROR  *   Fejl! Administratoren har blokeret din IP adresse pga. misbrug
+[45] FORM LOCKDOWN ERROR   *   OBS! Vores kontakt formular er midlertidigt låst. Prøv igen senere!
+[46] INPUT LENGTH ERROR    *   Fejl! Du har skrevet for mange bogstaver end tilladt... dette må betyde du er en robot og ikke et menneske!
+[47] SEND VALUE MISSING    *   Fejl! Der var fejl eller mangler i de sendte data
+[48] INPUT EXPLOIT ERROR   *   Fejl! Forbudt indhold blev fundet. Rediger venligst:
+[49] PROHIBITED LIST       *   Brug ikke
+[50] HEADER INJECTION      *   Fejl! Du har forsøgt at indsætte forkert data ind i mail headeren
+[51] CC HEADER INJECTION   *   Fejl! Du har forsøgt at indsætte forkert data ind i copy header
+[52] SPAM Q&A ERROR PART 1 *   Fejl! Dit svar på 
+[53] SPAM Q&A ERROR PART 2 *   er ikke korrekt. Det korrekte svar er
+[54] HONEYPOT SUBMIT AGAIN *   Send 
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT    *   Perfekt! Email er sendt den 
+[62] COPY SENT TEXT        *   Kopier sendt tekst
+[63] UNKNOWN BROWSER TEXT  *   Ukendt bruger agent
+[64] GREETING/SALUTATION   *   Hej 
+[65] MAIL INTRO TEXT       *   En email er sendt fra
+[66] MAIL SUB TEXT         *   Her er beskeden
+[67] CONTACT DETAILS TEXT  *   Denne information var givet
+[68] DATA COLLECTED TEXT   *   Data fundet
+[69] CC EMAIL COPY TEXT    *   Email Kopi
+[70] MAIL CC INTRO TEXT    *   Dette er en kopi af en email sendt til
+[71] NO ISP FOUND/UNKNOWN  *   ISP data var ikke tilgængelig
+[72] NO REFERRER DATA      *   Henvist data var ikke tilgængelig
+[73] NO IP DATA FOUND      *   IP adresse data var ikke tilgængelig
+[74] NO TIME STAMP FOUND   *   Time stamp data var ikke tilgængelig
+[75] * 

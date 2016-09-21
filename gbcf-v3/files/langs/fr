@@ -1,0 +1,76 @@
+[00] GBCF-V3 FRENCH (FR) FILE - DO NOT ALTER FILE FORMAT - BY GILL LUCRAFT HTTP://JBVISIONS.CO.UK - EDITED BY JEAN-JACQUES ETOTOUE HTTP://BOUGEONSNOUS.COM
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT       *   Votre nom 
+[03] EMAIL LABEL TEXT      *   Adresse Email 
+[04] ORG LABEL TEXT        *   Nom de votre entreprise 
+[05] PHONE LABEL TEXT      *   Téléphone Fixe 
+[06] WEBSITE LABEL TEXT    *   Site Internet
+[07] ADDRESS 1 LABEL TEXT  *   Adresse 
+[08] ADDRESS 2 LABEL TEXT  *   Suite Adresse 
+[09] CITY LABEL TEXT       *   Ville
+[10] STATE LABEL TEXT      *   Nom du quartier (S'il existe) 
+[11] POSTCODE LABEL TEXT   *   Code Postal 
+[12] COUNTRY LABEL TEXT    *   Téléphone Mobile 
+[13] SUBJECT LABEL TEXT    *   Objet de votre message
+[14] OPTMENU LABEL TEXT    *   Comment avez-vous entendu parler de nous? 
+[15] MESSAGE LABEL TEXT    *   Contenu du message 
+[16] HONEYPOT LABEL TEXT   *   Champ Anti-Spam vide 
+[17] CC COPY LABEL TEXT    *   Obtenir une copie du message 
+[18] ANTI-SPAM EXPLANATION *   Précaution pour éviter les messages anonymes. 
+[19] MAIN LABEL TEXT       *   Utilisez cette fiche pour nous joindre
+[20] SUBMIT BUTTON TEXT    *   Valider
+[21] REQUIRED SYMBOL       *   &#042;
+[22] REQUIRED TEXT         *   Champs obligatoires.
+[23] PRIVACY LINK TEXT     *   Politique de Confidentialité
+[24] TIME STAMP TEXT       *   Heure d'envoi (GMT) 
+[25] SELECT DEFAULT TEXT   *   Votre choix SVP.
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT      *   Fiche de Contact 
+[29] REQ 1 LEGEND TEXT     *   Données Obligatoires 
+[30] REQ 2 LEGEND TEXT     *   Données Obligatoires 
+[31] OPTIONAL LEGEND TEXT  *   Informations Facultatives 
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED      *   Spams Interceptés 
+[36] AUTHOR CREDIT TEXT    *   Merci à 
+[37] RESET PAGE LINK TEXT  *   Cliquer ici pour réinitialiser 
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS     *   Erreur! Champs obligatoires mal renseignés
+[40] MALFORMED EMAIL       *   Erreur! sur l'adresse de courrier électronique 
+[41] HONEYPOT NOT EMPTY    *   Erreur! Une zone cachée a reçu des des données. Merci de recommencer.
+[42] ID MISMATCH ERROR     *   Erreur! d'identification
+[43] INVALID MENU ERROR    *   Erreur! Vous avez fait une sélection de menu non conforme
+[44] BLACKLISTED IP ERROR  *   Erreur! Votre adresse IP est bloquée pour cause de Spam
+[45] FORM LOCKDOWN ERROR   *   Attention! Notre formulaire est actuellement indisponible.
+[46] INPUT LENGTH ERROR    *   Erreur! Salut l'Ami
+[47] SEND VALUE MISSING    *   Erreur! Les données envoyées se sont détériorées lors de la transmission
+[48] INPUT EXPLOIT ERROR   *   Erreur! Contenu interdit trouvé. Merci de reprendre s'l vous plaît : 
+[49] PROHIBITED LIST       *   Liste Interdite
+[50] HEADER INJECTION      *   Erreur! Vous avez essayé d'insérer des données non conformes dans le Titre
+[51] CC HEADER INJECTION   *   Erreur! Vous avez essayé d'insérer des données non conformes dans le chanmp CC
+[52] SPAM Q&A ERROR PART 1 *   Erreur! Votre réponse à
+[53] SPAM Q&A ERROR PART 2 *   est incorrecte. La réponse juste est
+[54] HONEYPOT SUBMIT AGAIN *   Merci d'envoyer de nouveau
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT    *   Votre  courrier électronique a expédié avec succès
+[62] COPY SENT TEXT        *   Copie envoyée
+[63] UNKNOWN BROWSER TEXT  *   Utilisateur inconnu
+[64] GREETING/SALUTATION   *   Bonjour
+[65] MAIL INTRO TEXT       *   Un courrier électronique a été envoyé de
+[66] MAIL SUB TEXT         *   Son contenu est le suivant  
+[67] CONTACT DETAILS TEXT  *   Les renseignements complémentaires suivants ont été recueillis 
+[68] DATA COLLECTED TEXT   *   Autres Informations  
+[69] CC EMAIL COPY TEXT    *   Copie du Courrier électronique
+[70] MAIL CC INTRO TEXT    *   Voici la copie de votre courrier électronique à l'attention de 
+[71] NO ISP FOUND/UNKNOWN  *   Données FAI non disponibles. 
+[72] NO REFERRER DATA      *   Données du Référant non disponibles. 
+[73] NO IP DATA FOUND      *   Informations IP non disponibles. 
+[74] NO TIME STAMP FOUND   *   Informations horaires non disponibles. 
+[75] * 

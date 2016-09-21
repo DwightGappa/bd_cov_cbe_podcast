@@ -1,0 +1,76 @@
+[00] GBCF-V3 ENGLISH (EN) FILE - DO NOT ALTER FILE FORMAT - BY MIKE CHERIM HTTP://GREEN-BEAST.COM  
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT       *   Nama
+[03] EMAIL LABEL TEXT      *   Email
+[04] ORG LABEL TEXT        *   Organisasi
+[05] PHONE LABEL TEXT      *   Telepon
+[06] WEBSITE LABEL TEXT    *   Situs
+[07] ADDRESS 1 LABEL TEXT  *   Alamat
+[08] ADDRESS 2 LABEL TEXT  *   Alamat (lanjutan)
+[09] CITY LABEL TEXT       *   Kota
+[10] STATE LABEL TEXT      *   Propinsi
+[11] POSTCODE LABEL TEXT   *   Kode Pos
+[12] COUNTRY LABEL TEXT    *   Negara
+[13] SUBJECT LABEL TEXT    *   Topik
+[14] OPTMENU LABEL TEXT    *   Pemberi referensi
+[15] MESSAGE LABEL TEXT    *   Pesan
+[16] HONEYPOT LABEL TEXT   *   Biarkan jebakan anti-spam ini kosong
+[17] CC COPY LABEL TEXT    *   Cek salinan email
+[18] ANTI-SPAM EXPLANATION *   Jawaban Anda berarti Anda manusia
+[19] MAIN LABEL TEXT       *   Email Kami dengan mengisi info Anda pada formulir ini.
+[20] SUBMIT BUTTON TEXT    *   Kirim
+[21] REQUIRED SYMBOL       *   &#042;
+[22] REQUIRED TEXT         *   Tandailah Kotak Wajib.
+[23] PRIVACY LINK TEXT     *   Kebijakan Privasi
+[24] TIME STAMP TEXT       *   Stampel Waktu
+[25] SELECT DEFAULT TEXT   *   Pilih satu
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT      *   Formulir Kontak
+[29] REQ 1 LEGEND TEXT     *   Wajib
+[30] REQ 2 LEGEND TEXT     *   Wajib
+[31] OPTIONAL LEGEND TEXT  *   Pilihan
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED      *   Diblok
+[36] AUTHOR CREDIT TEXT    *   Skrip oleh
+[37] RESET PAGE LINK TEXT  *   Susun Ulang
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS     *   Salah! Kotak Wajib tidak terisi
+[40] MALFORMED EMAIL       *   Salah! Alamat email Anda tidak berbentuk email 
+[41] HONEYPOT NOT EMPTY    *   Salah! Input tersembunyi memiliki data. Jika Anda manusia, coba lagi
+[42] ID MISMATCH ERROR     *   Salah! Identitas Formulir tidak sesuai, terindikasi pengisian dari luar
+[43] INVALID MENU ERROR    *   Salah! Anda menentukan pilihan menu yang tidak berlaku/ilegal
+[44] BLACKLISTED IP ERROR  *   Salah! IP Anda masuk daftar hitam akibat pengisian yang berlebihan
+[45] FORM LOCKDOWN ERROR   *   Pemberitahuan! Formulir Kami saat ini terkunci. Cek kembali nanti!
+[46] INPUT LENGTH ERROR    *   Salah! Anda melampaui batas panjang input... sampai jumpa 'bot
+[47] SEND VALUE MISSING    *   Salah! Nilai data yang terkirim telah terkorupsi atau hilang
+[48] INPUT EXPLOIT ERROR   *   Salah! Ditemukan isi yang dilarang. Mohon perbaiki: 
+[49] PROHIBITED LIST       *   Jangan Gunakan
+[50] HEADER INJECTION      *   Salah! Anda mencoba menyelipkan data ilegal pada kepala email
+[51] CC HEADER INJECTION   *   Salah! Anda mencoba menyelipkan data ilegal pada salinan kepala email
+[52] SPAM Q&A ERROR PART 1 *   Salah! Jawaban Anda
+[53] SPAM Q&A ERROR PART 2 *   tidak tepat. Jawaban yang tepat adalah
+[54] HONEYPOT SUBMIT AGAIN *   Langsung Kirim 
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT    *   Berhasil! Email dikirim pada
+[62] COPY SENT TEXT        *   Salinan terkirim
+[63] UNKNOWN BROWSER TEXT  *   Browser tidak dikenal
+[64] GREETING/SALUTATION   *   Hallo
+[65] MAIL INTRO TEXT       *   Sebuah email telah dikirim dari
+[66] MAIL SUB TEXT         *   Inilah pesan email tersebut
+[67] CONTACT DETAILS TEXT  *   Informasi tambahan yang tersedia
+[68] DATA COLLECTED TEXT   *   Data yang terkumpul
+[69] CC EMAIL COPY TEXT    *   Salinan Email
+[70] MAIL CC INTRO TEXT    *   Ini adalah salinan Email yang dikirim kepada
+[71] NO ISP FOUND/UNKNOWN  *   Data ISP tidak tersedia
+[72] NO REFERRER DATA      *   Data Pemberi referensi tidak tersedia
+[73] NO IP DATA FOUND      *   Data Alamat IP tidak tersedia
+[74] NO TIME STAMP FOUND   *   Data Stempel Waktu tidak tersedia
+[75] * 

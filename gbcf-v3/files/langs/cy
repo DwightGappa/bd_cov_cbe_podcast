@@ -1,0 +1,76 @@
+﻿[00] GBCF-V3 WELSH (CY) FILE - DO NOT ALTER FILE FORMAT - BY KEVIN DONNELLY HTTP://CYMRAEG.ORG.UK AND STEFHAN CADDICK HTTP://PAPERGECKO.CO.UK  
+[01]-------------------------------------------------------------------------------------------------
+[02] NAME LABEL TEXT       *   Enw
+[03] EMAIL LABEL TEXT      *   E-bost
+[04] ORG LABEL TEXT        *   Mudiad
+[05] PHONE LABEL TEXT      *   Ff&ocirc;n
+[06] WEBSITE LABEL TEXT    *   Gwefan
+[07] ADDRESS 1 LABEL TEXT  *   Cyfeiriad
+[08] ADDRESS 2 LABEL TEXT  *   Cyfeiriad (mwy)
+[09] CITY LABEL TEXT       *   Dinas/tref
+[10] STATE LABEL TEXT      *   Sir
+[11] POSTCODE LABEL TEXT   *   C&ocirc;d Post
+[12] COUNTRY LABEL TEXT    *   Gwlad
+[13] SUBJECT LABEL TEXT    *   Pwnc
+[14] OPTMENU LABEL TEXT    *   Yn lle glywsoch chi amdanom ni?
+[15] MESSAGE LABEL TEXT    *   Neges
+[16] HONEYPOT LABEL TEXT   *   Gadewch y trap gwrth-ebostach yma yn wag
+[17] CC COPY LABEL TEXT    *   Ticiwch y bocs yma, os gwelwch yn dda, os hoffech gopi o'ch e-bost.
+[18] ANTI-SPAM EXPLANATION *   Mae hyn yn cadarnhau eich bod yn berson (nid ebostach)
+[19] MAIN LABEL TEXT       *   Defnyddiwch y ffurflen isod i wneud ymholiad neu anfonwch e-bost.
+[20] SUBMIT BUTTON TEXT    *   Anfon Neges
+[21] REQUIRED SYMBOL       *   &#042;
+[22] REQUIRED TEXT         *   Dynodi maes gofynnol.
+[23] PRIVACY LINK TEXT     *   Polisi Preifatrwydd
+[24] TIME STAMP TEXT       *   Amsernod
+[25] SELECT DEFAULT TEXT   *   Dewiswch un
+[26] *
+[27]-------------------------------------------------------------------------------------------------
+[28] MAIN LEGEND TEXT      *   Ffurflen Gyswllt
+[29] REQ 1 LEGEND TEXT     *   Gofynnol
+[30] REQ 2 LEGEND TEXT     *   Gofynnol
+[31] OPTIONAL LEGEND TEXT  *   Dewisol
+[32] *
+[33] *
+[34]-------------------------------------------------------------------------------------------------
+[35] SPAMBOTS STOPPED      *   Caeedig
+[36] AUTHOR CREDIT TEXT    *   Sgript gan
+[37] RESET PAGE LINK TEXT  *   Ailosod tudalen
+[38]-------------------------------------------------------------------------------------------------
+[39] MISSED REQ FIELDS     *   Gwall! Meyseydd gofynnol yn wag
+[40] MALFORMED EMAIL       *   Gwall! Mae diffyg ar eich cyfeiriad e-bost  (malformed)
+[41] HONEYPOT NOT EMPTY    *   Gwall! Roedd maes mewnbwn gwag yn cynnwys data. Os ydych yn ddynol, rhowch gynnig arall arni 
+[42] ID MISMATCH ERROR     *   Gwall! Roedd anghydweddiad yng nghod adnabod y ffurflen, sy'n awgrymu postio o bell
+[43] INVALID MENU ERROR    *   Gwall! Rydych wedi dewis yn annilys o'r ddewislen: 
+[44] BLACKLISTED IP ERROR  *   Gwall! Mae'r gweinyddwr wedi gwahardd eich cyfeiriad IP o achos camddefnydd
+[45] FORM LOCKDOWN ERROR   *   Rhybudd! Mae ein ffurflen gyswllt ar glo ar hyn o bryd.  Dychwelwch yn nes ymlaen!
+[46] INPUT LENGTH ERROR    *   Gwall! Rydych wedi rhagori terfyn ar hyd hiraf mewnbwn - hwyl fawr 'bot
+[47] SEND VALUE MISSING    *   Gwall! Roedd gwerth y data anfon a gafodd ei gynnig yn llygredig neu ar goll
+[48] INPUT EXPLOIT ERROR   *   Gwall! Cafwyd cynnwys gwaharddedig.  Golygwch, os gwelwch yn dda: 
+[49] PROHIBITED LIST       *   Peidiwch &acirc; Defnyddio
+[50] HEADER INJECTION      *   Gwall! Rydych wedi ceisio mewnbynnu data anghyfreithlon ym mhennawd yr ebost
+[51] CC HEADER INJECTION   *   Gwall! Rydych wedi ceisio mewnbynnu data anghyfreithlon ym mhennawd y copi
+[52] SPAM Q&A ERROR PART 1 *   Gwall! Mae eich ateb i 
+[53] SPAM Q&A ERROR PART 2 *   yn anghywir. Yr ateb cywir ydi 
+[54] HONEYPOT SUBMIT AGAIN *   Neidiwch i Cyflwyno
+[55] *
+[56] *
+[57] *
+[58] *
+[59] *
+[60]-------------------------------------------------------------------------------------------------
+[61] SUCCESS EMAIL SENT    *   Diolch yn fawr. Cafodd eich neges ei yrru ar 
+[62] COPY SENT TEXT        *   Copi wedi ei anfon
+[63] UNKNOWN BROWSER TEXT  *   Asiant ddefnyddiwr anhysbys
+[64] GREETING/SALUTATION   *   Helo
+[65] MAIL INTRO TEXT       *   Cafodd e-bost ei yrru trwy'r wefan oddi wrth 
+[66] MAIL SUB TEXT         *   Dyma'r neges
+[67] CONTACT DETAILS TEXT  *   Cafodd y wybodaeth ychwanegol yma ei roi
+[68] DATA COLLECTED TEXT   *   Data a Gasglwyd
+[69] CC EMAIL COPY TEXT    *   Copi o'r Ebost
+[70] MAIL CC INTRO TEXT    *   Dyma gopi o ebost a anfonwyd at
+[71] NO ISP FOUND/UNKNOWN  *   Nid yw'r data ISP ar gael
+[72] NO REFERRER DATA      *   Nid yw'r data cyfeirydd ar gael
+[73] NO IP DATA FOUND      *   Nid yw'r data cyfeiriad IP ar gael
+[74] NO TIME STAMP FOUND   *   Nid yw'r data amsernod ar gael
+[75] * 
