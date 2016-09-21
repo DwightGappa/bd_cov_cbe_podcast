@@ -225,12 +225,12 @@ foreach ($array_books_of_bible_mp3s_csv_reversed as $csv_row_array)
 	$str_utf8_channel_item_date_long = $episode_pubDate_DateObject ->format('l, F j, Y');
 	
 	#Item title
-	$str_utf8_channel_item_title = utf8_encode("Day $str_utf8_channel_item_day_number - $str_utf8_channel_item_date_long - Pages $str_utf8_channel_item_pages");
+	$str_utf8_channel_item_title = utf8_encode("$str_utf8_channel_item_date_long - Day $str_utf8_channel_item_day_number - Pages $str_utf8_channel_item_pages");
 	
 	
 	
 	#Item description variable 
-	$str_utf8_channel_item_descritption = utf8_encode("The reading for $str_utf8_channel_item_date_long (Day $str_utf8_channel_item_day_number) is pages $str_utf8_channel_item_pages from the '$str_utf8_channel_item_reading_section' reading section.");
+	$str_utf8_channel_item_descritption = utf8_encode("The reading for $str_utf8_channel_item_date_long (Day $str_utf8_channel_item_day_number) is pages $str_utf8_channel_item_pages from the '$str_utf8_channel_item_reading_section' section.");
 	
 
 	#Only add episode if date is today or older
