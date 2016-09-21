@@ -63,7 +63,7 @@ $url_parent_directory_of_php_file = dirname($absolute_url);
 #$cbe_books_of_bible_mp3s_csv_file_location = './cbe_books_of_bible_mp3s.csv';
 
 #Testing!!! Remove for final
-$cbe_books_of_bible_mp3s_csv_file_location = './cbe_books_of_bible_mp3s_test.csv';
+$cbe_books_of_bible_mp3s_csv_file_location = './cbe_books_of_bible_mp3s.csv';
 
 if(file_exists($cbe_books_of_bible_mp3s_csv_file_location) || is_readable($cbe_books_of_bible_mp3s_csv_file_location)){
 	$array_books_of_bible_mp3s_csv = csv_to_array($cbe_books_of_bible_mp3s_csv_file_location);
@@ -82,7 +82,7 @@ date_default_timezone_set ($local_time_zone->getName());
 #using explict encoding to utf8 for forced utf8 enconding of xml file
 $str_utf8_channel_title = utf8_encode('Brookdale Covenant - Community Bible Experince Podcast');
 $str_utf8_channel_link =  utf8_encode('http://cbe.covchurch.org') ;
-$str_utf8_channel_description =  utf8_encode('This Podcast is for the .mp3 audio readings for the Brookdale Covenant Church - Community Bible Experince.  Fall 2016 (9/25/2016). The Books of the Bible and Community Bible Experince are copyrighted by Biblica');
+$str_utf8_channel_description =  utf8_encode('This Podcast is for the .mp3 audio readings for the Brookdale Covenant Church - Community Bible Experince.  Fall 2016 (9/18/2016). The Books of the Bible and Community Bible Experince are copyrighted by Biblica');
 $str_utf8_channel_language =  utf8_encode('en-us');
 $str_utf8_channel_image_title =  utf8_encode('Covenant - Community Bible Experince Logo');
 $str_utf8_channel_image_filename = utf8_encode('Cov-CBE_logo_resized.png');
@@ -196,11 +196,11 @@ $ChannelpubDateValue = $domXML->createTextNode($str_utf8_channel_pubDate);
 $ChannelpubDateNode = $ChannelNode->appendChild($ChannelpubDateELT);
 $ChannelpubDateNode->appendChild($ChannelpubDateValue);
 
+#Reverses csv file array to allow items to appear in newest to oldest order
+$array_books_of_bible_mp3s_csv_reversed = array_reverse($array_books_of_bible_mp3s_csv);
 
 
-
-
-foreach ($array_books_of_bible_mp3s_csv as $csv_row_array)
+foreach ($array_books_of_bible_mp3s_csv_reversed as $csv_row_array)
 {
 	
 	#reads in episode (item) details from $csv_row_array
@@ -221,14 +221,16 @@ foreach ($array_books_of_bible_mp3s_csv as $csv_row_array)
 	$str_utf8_channel_item_pubDate = utf8_encode($episode_pubDate_DateObject->format(DATE_RSS));
 	
 	
+	#gets long date format for for title
+	$str_utf8_channel_item_date_long = $episode_pubDate_DateObject ->format('l, F j, Y');
 	
-	$str_utf8_channel_item_title = utf8_encode("Day $str_utf8_channel_item_day_number");
+	#Item title
+	$str_utf8_channel_item_title = utf8_encode("Day $str_utf8_channel_item_day_number - $str_utf8_channel_item_date_long - Pages $str_utf8_channel_item_pages");
 	
-	#gets long date format for for description
-	#$str_utf8_channel_item_description_date = $episode_pubDate_DateObject ->format('m ([ .\t-])* dd ');
+	
 	
 	#Item description variable 
-	$str_utf8_channel_item_descritption = utf8_encode('The reading for Day ' . $str_utf8_channel_item_day_number .' is Pages '. $str_utf8_channel_item_pages. ' from the '. $str_utf8_channel_item_reading_section .' reading section.');
+	$str_utf8_channel_item_descritption = utf8_encode("The reading for $str_utf8_channel_item_date_long (Day $str_utf8_channel_item_day_number) is pages $str_utf8_channel_item_pages from the '$str_utf8_channel_item_reading_section' reading section.");
 	
 
 	#Only add episode if date is today or older
