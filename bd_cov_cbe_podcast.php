@@ -1,9 +1,9 @@
 <?php
 /**
-*Creates a podcast to support Brookdale Covenant's - Community Bible Experience Bible reading program.
-* @authur Dwight Gappa
-* @copyright Copyright (c) 2016, Dwight Gappa
-* @license http://www.opensource.org/licenses/mit-license.php MIT License
+*Podcast feed generator to support Brookdale Covenant's - Community Bible Experience Bible reading program.
+*@authur Dwight Gappa
+*@copyright Copyright (c) 2016, Dwight Gappa
+*@license http://www.opensource.org/licenses/mit-license.php MIT License
 */
 
 function csv_to_array($filename='', $delimiter=',')
@@ -69,9 +69,7 @@ $absolute_url = full_url( $_SERVER );
 $url_parent_directory_of_php_file = dirname($absolute_url);
 
 
-#$cbe_books_of_bible_mp3s_csv_file_location = './cbe_books_of_bible_mp3s.csv';
 
-#Testing!!! Remove for final
 $cbe_books_of_bible_mp3s_csv_file_location = './cbe_books_of_bible_mp3s.csv';
 
 if(file_exists($cbe_books_of_bible_mp3s_csv_file_location) || is_readable($cbe_books_of_bible_mp3s_csv_file_location)){
