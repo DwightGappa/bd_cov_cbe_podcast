@@ -1,5 +1,10 @@
 <?php
-
+/**
+*Creates a podcast to support Brookdale Covenant's - Community Bible Experience Bible reading program.
+* @authur Dwight Gappa
+* @copyright Copyright (c) 2016, Dwight Gappa
+* @license http://www.opensource.org/licenses/mit-license.php MIT License
+*/
 
 function csv_to_array($filename='', $delimiter=',')
 {
@@ -39,8 +44,10 @@ function csv_to_array($filename='', $delimiter=',')
 #functions url_origin and full_url taken from http://stackoverflow.com/a/8891890/175071.
 function url_origin( $s, $use_forwarded_host = false )
 {
-	#Taken from http://stackoverflow.com/a/8891890/175071
-    $ssl      = ( ! empty( $s['HTTPS'] ) && $s['HTTPS'] == 'on' );
+	/*
+	*Function taken from http://stackoverflow.com/a/8891890/175071.
+	*/
+	$ssl      = ( ! empty( $s['HTTPS'] ) && $s['HTTPS'] == 'on' );
     $sp       = strtolower( $s['SERVER_PROTOCOL'] );
     $protocol = substr( $sp, 0, strpos( $sp, '/' ) ) . ( ( $ssl ) ? 's' : '' );
     $port     = $s['SERVER_PORT'];
@@ -52,7 +59,9 @@ function url_origin( $s, $use_forwarded_host = false )
 
 function full_url( $s, $use_forwarded_host = false )
 {
-	#Taken from http://stackoverflow.com/a/8891890/175071
+	/*
+	*Function taken from http://stackoverflow.com/a/8891890/175071.
+	*/
     return url_origin( $s, $use_forwarded_host ) . $s['REQUEST_URI'];
 }
 
